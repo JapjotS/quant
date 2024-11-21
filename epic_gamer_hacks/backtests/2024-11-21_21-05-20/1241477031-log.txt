@@ -1,0 +1,18 @@
+2020-07-25 00:00:00 Launching analysis for 1241477031 with LEAN Engine v2.5.0.0
+2020-07-25 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2020-07-25 00:00:00 Interday Model MSE (GPU): 0.000000
+2020-07-25 00:00:00 Intraday Model MSE (GPU): 0.000000
+2020-07-25 00:00:00 Interday Model MSE (GPU): 0.000000
+2020-07-25 00:00:00 Intraday Model MSE (GPU): 0.000000
+2020-07-25 00:00:00 Interday Model MSE (GPU): 0.000000
+2020-07-25 00:00:00 Intraday Model MSE (GPU): 0.000001
+2020-07-27 16:00:00 Runtime Error: Argument type should be Symbol or a list of Symbol. Object: <bound method 'symbol'>. Type: <class 'CLR.MethodBinding'>
+  at plot_market
+    hist = self.History([self.symbol], 252, Resolution.Daily)['close'].unstack(level=0).dropna()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 184
+  at OnData
+    self.plot_market()
+ in main.py: line 42
+
+2020-07-27 16:00:00 Algorithm Id:(1241477031) completed in 0.37 seconds at 15k data points per second. Processing total of 5,404 data points.

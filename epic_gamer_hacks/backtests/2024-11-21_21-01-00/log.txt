@@ -1,0 +1,538 @@
+2024-11-21T21:01:02.0721587Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: DESKTOP-K73RRG0
+2024-11-21T21:01:02.0884027Z TRACE:: Engine.Main(): Started 9:01 PM
+2024-11-21T21:01:02.0971487Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2024-11-21T21:01:02.1179392Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2024-11-21T21:01:02.1903344Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2024-11-21T21:01:02.1906663Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2024-11-21T21:01:02.1912820Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2024-11-21T21:01:02.1925718Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2024-11-21T21:01:02.1928783Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2024-11-21T21:01:02.1931181Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2024-11-21T21:01:02.1933880Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2024-11-21T21:01:02.1996842Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2024-11-21T21:01:02.1999294Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2024-11-21T21:01:02.2001818Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2024-11-21T21:01:02.2004376Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2024-11-21T21:01:02.2018106Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2024-11-21T21:01:02.2282191Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-11-21T21:01:02.2310477Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2024-11-21T21:01:02.2378226Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2024-11-21T21:01:02.2386873Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2024-11-21T21:01:02.2616391Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2024-11-21T21:01:02.2629992Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2024-11-21T21:01:02.3390892Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-11-21T21:01:02.7928255Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2024-11-21T21:01:02.7966731Z TRACE:: PythonInitializer.Initialize(): start...
+2024-11-21T21:01:03.3993435Z TRACE:: PythonInitializer.Initialize(): ended
+2024-11-21T21:01:03.4023778Z TRACE:: AlgorithmPythonWrapper(): Python version 3.11.7 (main, Dec 15 2023, 18:24:52) [GCC 11.2.0]: Importing python module main
+2024-11-21T21:01:06.5918226Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2024-11-21T21:01:06.5973983Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2024-11-21T21:01:06.6155050Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-11-21T21:01:06.7786257Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2024-11-21T21:01:06.7814632Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB
+2024-11-21T21:01:06.7900513Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-11-21T21:01:06.7996626Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2024-11-21T21:01:06.8035440Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 326373, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2024-11-21T21:01:06.8098885Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2024-11-21T21:01:06.9798431Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2024-11-21T21:01:06.9830553Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2024-11-21T21:01:06.9833959Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400
+2024-11-21T21:01:08.3132485Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Margin
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000
+-------------------------------------------------
+CashBook Total Value:                $100000
+
+2024-11-21T21:01:08.3160190Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 100000.00
+2024-11-21T21:01:08.3167462Z TRACE:: SetUp Backtesting: User: 326373 ProjectId: 0 AlgoId: 1827590197
+2024-11-21T21:01:08.3179825Z TRACE:: Dates: Start: 07/25/2020 End: 07/25/2024 Cash: ¤100,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2024-11-21T21:01:08.3209445Z TRACE:: BacktestingResultHandler(): Sample Period Set: 526.32
+2024-11-21T21:01:08.3218631Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2024-11-21T21:01:08.3227319Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2024-11-21T21:01:08.3603812Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2024-11-21T21:01:08.3618644Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 7/25/2020 12:00:00 AM Stop: 7/25/2024 11:59:59 PM Time: 7/25/2020 12:00:00 AM Warmup: False
+2024-11-21T21:01:08.4046692Z TRACE:: Debug: Launching analysis for 1827590197 with LEAN Engine v2.5.0.0
+2024-11-21T21:01:08.4227048Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,#0,SPY,Hour,TradeBar,Trade,Adjusted,OpenInterest,Internal
+2024-11-21T21:01:08.6559364Z TRACE:: Debug: Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2024-11-21T21:01:08.6564119Z TRACE:: Log: Interday Model MSE (GPU): 0.000000
+2024-11-21T21:01:08.6568659Z TRACE:: Log: Intraday Model MSE (GPU): 0.000000
+2024-11-21T21:01:08.7073799Z TRACE:: Log: Date: 2020-07-27, Interday Prediction: 0.3522, Intraday Prediction: 0.5293
+2024-11-21T21:01:08.8107945Z ERROR:: Unable to submit order with id -10 that has zero quantity.
+2024-11-21T21:01:08.8112405Z TRACE:: Log: Date: 2020-07-28, Interday Prediction: 0.5084, Intraday Prediction: 0.6095
+2024-11-21T21:01:08.8114250Z TRACE:: Log: Purchase recorded: Date: 2020-07-28 16:00:00, Amount: $158.75
+2024-11-21T21:01:08.8115977Z TRACE:: Log: Placed stop market order to sell at $314.32 (1% below purchase price).
+2024-11-21T21:01:08.8408064Z TRACE:: Config.GetValue(): portfolio-margin-series-count - Using default value: 5
+2024-11-21T21:01:08.8623992Z TRACE:: Log: Date: 2020-07-29, Interday Prediction: 0.3300, Intraday Prediction: 0.4699
+2024-11-21T21:01:08.9632575Z TRACE:: Log: Date: 2020-07-30, Interday Prediction: 0.4526, Intraday Prediction: 0.6711
+2024-11-21T21:01:08.9636214Z TRACE:: Log: Date: 2020-07-31, Interday Prediction: 0.3522, Intraday Prediction: 0.5243
+2024-11-21T21:01:09.0140103Z TRACE:: Log: Date: 2020-08-03, Interday Prediction: 0.3522, Intraday Prediction: 0.4289
+2024-11-21T21:01:09.0649467Z TRACE:: Log: Date: 2020-08-04, Interday Prediction: 0.6642, Intraday Prediction: 0.5632
+2024-11-21T21:01:09.0655093Z TRACE:: Log: Purchase recorded: Date: 2020-08-04 16:00:00, Amount: $163.14
+2024-11-21T21:01:09.0657530Z TRACE:: Log: Placed stop market order to sell at $323.02 (1% below purchase price).
+2024-11-21T21:01:09.0659472Z TRACE:: Log: Date: 2020-08-05, Interday Prediction: 0.3558, Intraday Prediction: 0.6984
+2024-11-21T21:01:09.1164484Z TRACE:: Debug: Warning: Portfolio rebalance result ignored as it resulted in a single share trade recommendation which can generate high fees. To disable minimum order size checks please set Settings.MinimumOrderMarginPortfolioPercentage = 0.
+2024-11-21T21:01:09.1169175Z TRACE:: Log: Date: 2020-08-06, Interday Prediction: 0.6095, Intraday Prediction: 0.5751
+2024-11-21T21:01:09.1171599Z TRACE:: Log: Purchase recorded: Date: 2020-08-06 16:00:00, Amount: $165.25
+2024-11-21T21:01:09.1174353Z TRACE:: Log: Placed stop market order to sell at $327.20 (1% below purchase price).
+2024-11-21T21:01:09.1678706Z TRACE:: Log: Date: 2020-08-07, Interday Prediction: 0.3526, Intraday Prediction: 0.7407
+2024-11-21T21:01:09.1683298Z TRACE:: Log: Date: 2020-08-10, Interday Prediction: 0.3328, Intraday Prediction: 0.6267
+2024-11-21T21:01:09.2187856Z TRACE:: Log: Date: 2020-08-11, Interday Prediction: 0.4529, Intraday Prediction: 0.5700
+2024-11-21T21:01:09.2193005Z TRACE:: Log: Date: 2020-08-12, Interday Prediction: 0.5933, Intraday Prediction: 0.2055
+2024-11-21T21:01:09.2698881Z TRACE:: Log: Date: 2020-08-13, Interday Prediction: 0.8437, Intraday Prediction: 0.6799
+2024-11-21T21:01:09.2702384Z TRACE:: Log: Purchase recorded: Date: 2020-08-13 16:00:00, Amount: $166.49
+2024-11-21T21:01:09.2706703Z TRACE:: Log: Placed stop market order to sell at $329.64 (1% below purchase price).
+2024-11-21T21:01:09.2710236Z TRACE:: Log: Date: 2020-08-14, Interday Prediction: 0.3431, Intraday Prediction: 0.5438
+2024-11-21T21:01:09.3213932Z TRACE:: Log: Date: 2020-08-17, Interday Prediction: 0.3522, Intraday Prediction: 0.5101
+2024-11-21T21:01:09.3719388Z TRACE:: Log: Date: 2020-08-18, Interday Prediction: 0.5655, Intraday Prediction: 0.4752
+2024-11-21T21:01:09.3721755Z TRACE:: Log: Date: 2020-08-19, Interday Prediction: 0.4561, Intraday Prediction: 0.5018
+2024-11-21T21:01:09.4225470Z TRACE:: Log: Date: 2020-08-20, Interday Prediction: 0.4568, Intraday Prediction: 0.3281
+2024-11-21T21:01:09.4236809Z TRACE:: Log: Date: 2020-08-21, Interday Prediction: 0.3526, Intraday Prediction: 0.7420
+2024-11-21T21:01:09.4742030Z TRACE:: Log: Date: 2020-08-24, Interday Prediction: 0.2295, Intraday Prediction: 0.6127
+2024-11-21T21:01:09.5246736Z TRACE:: Log: Date: 2020-08-25, Interday Prediction: 0.8317, Intraday Prediction: 0.5414
+2024-11-21T21:01:09.5248695Z TRACE:: Log: Purchase recorded: Date: 2020-08-25 16:00:00, Amount: $170.09
+2024-11-21T21:01:09.5249982Z TRACE:: Log: Placed stop market order to sell at $336.78 (1% below purchase price).
+2024-11-21T21:01:09.5755026Z TRACE:: Log: Date: 2020-08-26, Interday Prediction: 0.5560, Intraday Prediction: 0.5244
+2024-11-21T21:01:09.5758594Z TRACE:: Log: Purchase recorded: Date: 2020-08-26 16:00:00, Amount: $171.79
+2024-11-21T21:01:09.5761102Z TRACE:: Log: Placed stop market order to sell at $340.15 (1% below purchase price).
+2024-11-21T21:01:09.5765428Z TRACE:: Log: Date: 2020-08-27, Interday Prediction: 0.5562, Intraday Prediction: 0.7143
+2024-11-21T21:01:09.5768993Z TRACE:: Log: Purchase recorded: Date: 2020-08-27 16:00:00, Amount: $172.17
+2024-11-21T21:01:09.5772664Z TRACE:: Log: Placed stop market order to sell at $340.90 (1% below purchase price).
+2024-11-21T21:01:09.6275561Z TRACE:: Log: Date: 2020-08-28, Interday Prediction: 0.5961, Intraday Prediction: 0.4601
+2024-11-21T21:01:09.6278531Z TRACE:: Log: Date: 2020-08-31, Interday Prediction: 0.6236, Intraday Prediction: 0.5063
+2024-11-21T21:01:09.6280701Z TRACE:: Log: Purchase recorded: Date: 2020-08-31 16:00:00, Amount: $172.65
+2024-11-21T21:01:09.6282792Z TRACE:: Log: Placed stop market order to sell at $341.86 (1% below purchase price).
+2024-11-21T21:01:09.6786433Z TRACE:: Log: Date: 2020-09-01, Interday Prediction: 0.5115, Intraday Prediction: 0.4277
+2024-11-21T21:01:09.6789455Z TRACE:: Log: Date: 2020-09-02, Interday Prediction: 0.7019, Intraday Prediction: 0.8661
+2024-11-21T21:01:09.6791616Z TRACE:: Log: Purchase recorded: Date: 2020-09-02 16:00:00, Amount: $176.80
+2024-11-21T21:01:09.6793595Z TRACE:: Log: Placed stop market order to sell at $350.07 (1% below purchase price).
+2024-11-21T21:01:09.7298283Z TRACE:: Log: Stop market order executed: Date: 2020-09-03 16:00:00, Price: $350.07
+2024-11-21T21:01:09.7302102Z TRACE:: Log: Date: 2020-09-03, Interday Prediction: 0.8599, Intraday Prediction: 0.9226
+2024-11-21T21:01:09.7305598Z TRACE:: Log: Purchase recorded: Date: 2020-09-03 16:00:00, Amount: $170.72
+2024-11-21T21:01:09.7308358Z TRACE:: Log: Placed stop market order to sell at $338.02 (1% below purchase price).
+2024-11-21T21:01:09.7310515Z TRACE:: Log: Stop market order executed: Date: 2020-09-04 16:00:00, Price: $342.11
+2024-11-21T21:01:09.7313072Z TRACE:: Log: Date: 2020-09-04, Interday Prediction: 0.0816, Intraday Prediction: 0.2126
+2024-11-21T21:01:09.7315014Z TRACE:: Log: Purchase recorded: Date: 2020-09-04 16:00:00, Amount: $169.32
+2024-11-21T21:01:09.7317631Z TRACE:: Log: Placed stop market order to cover at $342.03 (1% above purchase price).
+2024-11-21T21:01:09.7821346Z TRACE:: Log: Stop market order executed: Date: 2020-09-08 16:00:00, Price: $332.88
+2024-11-21T21:01:09.7824457Z TRACE:: Log: Date: 2020-09-08, Interday Prediction: 0.7686, Intraday Prediction: 0.4999
+2024-11-21T21:01:09.7826760Z TRACE:: Log: Date: 2020-09-09, Interday Prediction: 0.2099, Intraday Prediction: 0.4884
+2024-11-21T21:01:09.8330390Z TRACE:: Log: Date: 2020-09-10, Interday Prediction: 0.8448, Intraday Prediction: 0.8474
+2024-11-21T21:01:09.8381159Z TRACE:: Log: Purchase recorded: Date: 2020-09-10 16:00:00, Amount: $165.03
+2024-11-21T21:01:09.8387822Z TRACE:: Log: Placed stop market order to sell at $326.77 (1% below purchase price).
+2024-11-21T21:01:09.8390962Z ERROR:: Order Error: ids: [19], Insufficient buying power to complete orders (Value:[143123.2730]), Reason: Id: 19, Initial Margin: 72323.47494915, Free Margin: 67860.57577742.
+2024-11-21T21:01:09.8392658Z TRACE:: Log: Date: 2020-09-11, Interday Prediction: 0.7483, Intraday Prediction: 0.2218
+2024-11-21T21:01:09.8895540Z TRACE:: Log: Date: 2020-09-14, Interday Prediction: 0.7802, Intraday Prediction: 0.6282
+2024-11-21T21:01:09.8909945Z TRACE:: Log: Purchase recorded: Date: 2020-09-14 16:00:00, Amount: $167.29
+2024-11-21T21:01:09.8912197Z TRACE:: Log: Placed stop market order to sell at $331.24 (1% below purchase price).
+2024-11-21T21:01:09.8914246Z TRACE:: Log: Date: 2020-09-15, Interday Prediction: 0.8142, Intraday Prediction: 0.8790
+2024-11-21T21:01:09.8917090Z TRACE:: Log: Purchase recorded: Date: 2020-09-15 16:00:00, Amount: $168.14
+2024-11-21T21:01:09.8919063Z TRACE:: Log: Placed stop market order to sell at $332.91 (1% below purchase price).
+2024-11-21T21:01:09.9421812Z TRACE:: Log: Date: 2020-09-16, Interday Prediction: 0.7929, Intraday Prediction: 0.6839
+2024-11-21T21:01:09.9424265Z TRACE:: Log: Purchase recorded: Date: 2020-09-16 16:00:00, Amount: $167.47
+2024-11-21T21:01:09.9426353Z TRACE:: Log: Placed stop market order to sell at $331.59 (1% below purchase price).
+2024-11-21T21:01:09.9929989Z ERROR:: Unable to submit order with id -10 that has zero quantity.
+2024-11-21T21:01:09.9932221Z TRACE:: Log: Stop market order executed: Date: 2020-09-17 16:00:00, Price: $329.70
+2024-11-21T21:01:09.9934626Z TRACE:: Log: Date: 2020-09-17, Interday Prediction: 0.6984, Intraday Prediction: 0.5634
+2024-11-21T21:01:09.9936306Z TRACE:: Log: Purchase recorded: Date: 2020-09-17 16:00:00, Amount: $166.00
+2024-11-21T21:01:09.9938080Z TRACE:: Log: Placed stop market order to sell at $328.67 (1% below purchase price).
+2024-11-21T21:01:09.9941080Z TRACE:: Log: Date: 2020-09-18, Interday Prediction: 0.6984, Intraday Prediction: 0.5634
+2024-11-21T21:01:09.9944293Z TRACE:: Log: Purchase recorded: Date: 2020-09-18 00:00:00, Amount: $166.00
+2024-11-21T21:01:09.9946263Z TRACE:: Log: Placed stop market order to sell at $328.67 (1% below purchase price).
+2024-11-21T21:01:10.0451955Z TRACE:: Log: Date: 2020-09-18, Interday Prediction: 0.2891, Intraday Prediction: 0.8557
+2024-11-21T21:01:10.0971593Z TRACE:: Log: Date: 2020-09-21, Interday Prediction: 0.6539, Intraday Prediction: 0.3991
+2024-11-21T21:01:10.0974613Z TRACE:: Log: Date: 2020-09-22, Interday Prediction: 0.2443, Intraday Prediction: 0.8505
+2024-11-21T21:01:10.1480176Z TRACE:: Log: Date: 2020-09-23, Interday Prediction: 0.7261, Intraday Prediction: 0.8489
+2024-11-21T21:01:10.1482773Z TRACE:: Log: Purchase recorded: Date: 2020-09-23 16:00:00, Amount: $160.11
+2024-11-21T21:01:10.1484729Z TRACE:: Log: Placed stop market order to sell at $317.02 (1% below purchase price).
+2024-11-21T21:01:10.1486314Z TRACE:: Log: Date: 2020-09-24, Interday Prediction: 0.6311, Intraday Prediction: 0.2325
+2024-11-21T21:01:10.1989884Z TRACE:: Log: Date: 2020-09-25, Interday Prediction: 0.3400, Intraday Prediction: 0.7511
+2024-11-21T21:01:10.2493893Z TRACE:: Log: Date: 2020-09-28, Interday Prediction: 0.4362, Intraday Prediction: 0.8559
+2024-11-21T21:01:10.2998836Z TRACE:: Log: Date: 2020-09-29, Interday Prediction: 0.8016, Intraday Prediction: 0.6673
+2024-11-21T21:01:10.3001698Z TRACE:: Log: Purchase recorded: Date: 2020-09-29 16:00:00, Amount: $164.94
+2024-11-21T21:01:10.3003651Z TRACE:: Log: Placed stop market order to sell at $326.58 (1% below purchase price).
+2024-11-21T21:01:10.3005480Z TRACE:: Log: Date: 2020-09-30, Interday Prediction: 0.5438, Intraday Prediction: 0.5047
+2024-11-21T21:01:10.3007516Z TRACE:: Log: Purchase recorded: Date: 2020-09-30 16:00:00, Amount: $166.19
+2024-11-21T21:01:10.3009602Z TRACE:: Log: Placed stop market order to sell at $329.06 (1% below purchase price).
+2024-11-21T21:01:10.3513711Z TRACE:: Log: Date: 2020-10-01, Interday Prediction: 0.6266, Intraday Prediction: 0.7134
+2024-11-21T21:01:10.3516096Z TRACE:: Log: Purchase recorded: Date: 2020-10-01 16:00:00, Amount: $167.26
+2024-11-21T21:01:10.3517247Z TRACE:: Log: Placed stop market order to sell at $331.17 (1% below purchase price).
+2024-11-21T21:01:10.4020498Z TRACE:: Log: Stop market order executed: Date: 2020-10-02 16:00:00, Price: $329.22
+2024-11-21T21:01:10.4022616Z TRACE:: Log: Date: 2020-10-02, Interday Prediction: 0.8808, Intraday Prediction: 0.5693
+2024-11-21T21:01:10.4024156Z TRACE:: Log: Purchase recorded: Date: 2020-10-02 16:00:00, Amount: $165.67
+2024-11-21T21:01:10.4025798Z TRACE:: Log: Placed stop market order to sell at $328.02 (1% below purchase price).
+2024-11-21T21:01:10.4028111Z TRACE:: Log: Date: 2020-10-05, Interday Prediction: 0.1007, Intraday Prediction: 0.7452
+2024-11-21T21:01:10.4530981Z TRACE:: Log: Date: 2020-10-06, Interday Prediction: 0.7603, Intraday Prediction: 0.8488
+2024-11-21T21:01:10.4533216Z TRACE:: Log: Purchase recorded: Date: 2020-10-06 16:00:00, Amount: $166.21
+2024-11-21T21:01:10.4534932Z TRACE:: Log: Placed stop market order to sell at $329.10 (1% below purchase price).
+2024-11-21T21:01:10.4536536Z TRACE:: Log: Date: 2020-10-07, Interday Prediction: 0.5650, Intraday Prediction: 0.2619
+2024-11-21T21:01:10.5039386Z TRACE:: Log: Date: 2020-10-08, Interday Prediction: 0.9477, Intraday Prediction: 0.7937
+2024-11-21T21:01:10.5041773Z TRACE:: Log: Purchase recorded: Date: 2020-10-08 16:00:00, Amount: $170.60
+2024-11-21T21:01:10.5043692Z TRACE:: Log: Placed stop market order to sell at $337.79 (1% below purchase price).
+2024-11-21T21:01:10.5546936Z TRACE:: Log: Date: 2020-10-09, Interday Prediction: 0.7753, Intraday Prediction: 0.6543
+2024-11-21T21:01:10.5549534Z TRACE:: Log: Purchase recorded: Date: 2020-10-09 16:00:00, Amount: $172.13
+2024-11-21T21:01:10.5551605Z TRACE:: Log: Placed stop market order to sell at $340.81 (1% below purchase price).
+2024-11-21T21:01:10.5553912Z TRACE:: Log: Date: 2020-10-12, Interday Prediction: 0.7229, Intraday Prediction: 0.6835
+2024-11-21T21:01:10.5555833Z TRACE:: Log: Purchase recorded: Date: 2020-10-12 16:00:00, Amount: $174.89
+2024-11-21T21:01:10.5558461Z TRACE:: Log: Placed stop market order to sell at $346.29 (1% below purchase price).
+2024-11-21T21:01:10.6061788Z TRACE:: Log: Date: 2020-10-13, Interday Prediction: 0.8221, Intraday Prediction: 0.7657
+2024-11-21T21:01:10.6064182Z TRACE:: Log: Purchase recorded: Date: 2020-10-13 16:00:00, Amount: $173.75
+2024-11-21T21:01:10.6066328Z TRACE:: Log: Placed stop market order to sell at $344.03 (1% below purchase price).
+2024-11-21T21:01:10.6570734Z TRACE:: Log: Date: 2020-10-14, Interday Prediction: 0.5468, Intraday Prediction: 0.4768
+2024-11-21T21:01:10.6573386Z TRACE:: Log: Date: 2020-10-15, Interday Prediction: 0.6118, Intraday Prediction: 0.4414
+2024-11-21T21:01:10.7077631Z TRACE:: Log: Date: 2020-10-16, Interday Prediction: 0.2728, Intraday Prediction: 0.8409
+2024-11-21T21:01:10.7081091Z TRACE:: Log: Date: 2020-10-19, Interday Prediction: 0.6915, Intraday Prediction: 0.5045
+2024-11-21T21:01:10.7083016Z TRACE:: Log: Purchase recorded: Date: 2020-10-19 16:00:00, Amount: $169.72
+2024-11-21T21:01:10.7085351Z TRACE:: Log: Placed stop market order to sell at $336.05 (1% below purchase price).
+2024-11-21T21:01:10.7589662Z TRACE:: Log: Date: 2020-10-20, Interday Prediction: 0.6747, Intraday Prediction: 0.2107
+2024-11-21T21:01:10.7593312Z TRACE:: Log: Date: 2020-10-21, Interday Prediction: 0.6902, Intraday Prediction: 0.6059
+2024-11-21T21:01:10.7596338Z TRACE:: Log: Purchase recorded: Date: 2020-10-21 16:00:00, Amount: $170.08
+2024-11-21T21:01:10.7598566Z TRACE:: Log: Placed stop market order to sell at $336.76 (1% below purchase price).
+2024-11-21T21:01:10.8102503Z TRACE:: Log: Date: 2020-10-22, Interday Prediction: 0.5565, Intraday Prediction: 0.5683
+2024-11-21T21:01:10.8106111Z TRACE:: Log: Purchase recorded: Date: 2020-10-22 16:00:00, Amount: $171.01
+2024-11-21T21:01:10.8108157Z TRACE:: Log: Placed stop market order to sell at $338.61 (1% below purchase price).
+2024-11-21T21:01:10.8109626Z TRACE:: Log: Date: 2020-10-23, Interday Prediction: 0.5752, Intraday Prediction: 0.6785
+2024-11-21T21:01:10.8111483Z TRACE:: Log: Purchase recorded: Date: 2020-10-23 16:00:00, Amount: $171.59
+2024-11-21T21:01:10.8114078Z TRACE:: Log: Placed stop market order to sell at $339.76 (1% below purchase price).
+2024-11-21T21:01:10.8618379Z TRACE:: Log: Stop market order executed: Date: 2020-10-26 16:00:00, Price: $339.58
+2024-11-21T21:01:10.8622855Z TRACE:: Log: Date: 2020-10-26, Interday Prediction: 0.6647, Intraday Prediction: 0.5587
+2024-11-21T21:01:10.8626387Z TRACE:: Log: Purchase recorded: Date: 2020-10-26 16:00:00, Amount: $168.42
+2024-11-21T21:01:10.8628520Z TRACE:: Log: Placed stop market order to sell at $333.48 (1% below purchase price).
+2024-11-21T21:01:10.8630654Z TRACE:: Log: Date: 2020-10-27, Interday Prediction: 0.3689, Intraday Prediction: 0.3909
+2024-11-21T21:01:10.9136503Z TRACE:: Log: Date: 2020-10-28, Interday Prediction: 0.6024, Intraday Prediction: 0.4664
+2024-11-21T21:01:10.9140150Z TRACE:: Log: Date: 2020-10-29, Interday Prediction: 0.3395, Intraday Prediction: 0.2102
+2024-11-21T21:01:10.9142723Z TRACE:: Log: Purchase recorded: Date: 2020-10-29 16:00:00, Amount: $163.75
+2024-11-21T21:01:10.9145155Z TRACE:: Log: Placed stop market order to cover at $330.78 (1% above purchase price).
+2024-11-21T21:01:10.9649212Z TRACE:: Log: Stop market order executed: Date: 2020-10-30 16:00:00, Price: $325.82
+2024-11-21T21:01:10.9652509Z TRACE:: Log: Date: 2020-10-30, Interday Prediction: 0.6017, Intraday Prediction: 0.7692
+2024-11-21T21:01:10.9655551Z TRACE:: Log: Purchase recorded: Date: 2020-10-30 16:00:00, Amount: $162.05
+2024-11-21T21:01:10.9657922Z TRACE:: Log: Placed stop market order to sell at $320.85 (1% below purchase price).
+2024-11-21T21:01:10.9661783Z ERROR:: Order Error: ids: [50], Insufficient buying power to complete orders (Value:[140533.0682]), Reason: Id: 50, Initial Margin: 71774.01976314, Free Margin: 65447.481166083.
+2024-11-21T21:01:10.9663489Z TRACE:: Log: Date: 2020-11-02, Interday Prediction: 0.2030, Intraday Prediction: 0.4494
+2024-11-21T21:01:11.0166294Z TRACE:: Log: Date: 2020-11-03, Interday Prediction: 0.8348, Intraday Prediction: 0.5669
+2024-11-21T21:01:11.0181777Z TRACE:: Log: Purchase recorded: Date: 2020-11-03 16:00:00, Amount: $166.76
+2024-11-21T21:01:11.0200314Z TRACE:: Log: Placed stop market order to sell at $330.18 (1% below purchase price).
+2024-11-21T21:01:11.0221960Z TRACE:: Log: Date: 2020-11-04, Interday Prediction: 0.8161, Intraday Prediction: 0.7451
+2024-11-21T21:01:11.0223939Z TRACE:: Log: Purchase recorded: Date: 2020-11-04 16:00:00, Amount: $170.48
+2024-11-21T21:01:11.0225776Z TRACE:: Log: Placed stop market order to sell at $337.56 (1% below purchase price).
+2024-11-21T21:01:11.0228281Z TRACE:: Log: Date: 2020-11-05, Interday Prediction: 0.8142, Intraday Prediction: 0.7381
+2024-11-21T21:01:11.0230062Z TRACE:: Log: Purchase recorded: Date: 2020-11-05 16:00:00, Amount: $173.81
+2024-11-21T21:01:11.0231835Z TRACE:: Log: Placed stop market order to sell at $344.14 (1% below purchase price).
+2024-11-21T21:01:11.0734342Z TRACE:: Log: Date: 2020-11-06, Interday Prediction: 0.8287, Intraday Prediction: 0.6295
+2024-11-21T21:01:11.0749622Z TRACE:: Log: Purchase recorded: Date: 2020-11-06 16:00:00, Amount: $173.77
+2024-11-21T21:01:11.0751977Z TRACE:: Log: Placed stop market order to sell at $344.06 (1% below purchase price).
+2024-11-21T21:01:11.0753800Z TRACE:: Log: Date: 2020-11-09, Interday Prediction: 0.2299, Intraday Prediction: 0.5960
+2024-11-21T21:01:11.1258118Z TRACE:: Log: Date: 2020-11-10, Interday Prediction: 0.8700, Intraday Prediction: 0.1844
+2024-11-21T21:01:11.1261828Z TRACE:: Log: Date: 2020-11-11, Interday Prediction: 0.2166, Intraday Prediction: 0.6189
+2024-11-21T21:01:11.1766663Z TRACE:: Log: Date: 2020-11-12, Interday Prediction: 0.3296, Intraday Prediction: 0.5989
+2024-11-21T21:01:11.1769671Z TRACE:: Log: Date: 2020-11-13, Interday Prediction: 0.3306, Intraday Prediction: 0.5310
+2024-11-21T21:01:11.2274990Z TRACE:: Log: Date: 2020-11-16, Interday Prediction: 0.3532, Intraday Prediction: 0.8543
+2024-11-21T21:01:11.2780049Z TRACE:: Log: Date: 2020-11-17, Interday Prediction: 0.4668, Intraday Prediction: 0.8534
+2024-11-21T21:01:11.2783408Z TRACE:: Log: Date: 2020-11-18, Interday Prediction: 0.3406, Intraday Prediction: 0.7305
+2024-11-21T21:01:11.3287135Z TRACE:: Log: Date: 2020-11-19, Interday Prediction: 0.3306, Intraday Prediction: 0.3700
+2024-11-21T21:01:11.3292113Z TRACE:: Log: Date: 2020-11-20, Interday Prediction: 0.3522, Intraday Prediction: 0.8514
+2024-11-21T21:01:11.3799272Z TRACE:: Log: Date: 2020-11-23, Interday Prediction: 0.3406, Intraday Prediction: 0.5522
+2024-11-21T21:01:11.3803059Z TRACE:: Log: Date: 2020-11-24, Interday Prediction: 0.3532, Intraday Prediction: 0.7373
+2024-11-21T21:01:11.5542707Z TRACE:: Log: Date: 2020-11-25, Interday Prediction: 0.3328, Intraday Prediction: 0.8534
+2024-11-21T21:01:11.5582853Z TRACE:: Log: Date: 2020-11-27, Interday Prediction: 0.3406, Intraday Prediction: 0.7093
+2024-11-21T21:01:11.5586123Z TRACE:: Log: Date: 2020-11-30, Interday Prediction: 0.3296, Intraday Prediction: 0.6949
+2024-11-21T21:01:11.5588117Z TRACE:: Log: Date: 2020-12-01, Interday Prediction: 0.3328, Intraday Prediction: 0.6519
+2024-11-21T21:01:11.5590073Z TRACE:: Log: Date: 2020-12-02, Interday Prediction: 0.4570, Intraday Prediction: 0.7296
+2024-11-21T21:01:11.5592557Z TRACE:: Log: Date: 2020-12-03, Interday Prediction: 0.3328, Intraday Prediction: 0.8812
+2024-11-21T21:01:11.5594640Z TRACE:: Log: Date: 2020-12-04, Interday Prediction: 0.3384, Intraday Prediction: 0.7301
+2024-11-21T21:01:11.6098743Z TRACE:: Log: Date: 2020-12-07, Interday Prediction: 0.3328, Intraday Prediction: 0.8534
+2024-11-21T21:01:11.6102878Z TRACE:: Log: Date: 2020-12-08, Interday Prediction: 0.3384, Intraday Prediction: 0.7301
+2024-11-21T21:01:11.6607700Z TRACE:: Log: Date: 2020-12-09, Interday Prediction: 0.3328, Intraday Prediction: 0.8527
+2024-11-21T21:01:11.6612201Z TRACE:: Log: Date: 2020-12-10, Interday Prediction: 0.3384, Intraday Prediction: 0.4404
+2024-11-21T21:01:11.7117494Z TRACE:: Log: Date: 2020-12-11, Interday Prediction: 0.3532, Intraday Prediction: 0.8521
+2024-11-21T21:01:11.7121860Z TRACE:: Log: Date: 2020-12-14, Interday Prediction: 0.3406, Intraday Prediction: 0.8407
+2024-11-21T21:01:11.7626120Z TRACE:: Log: Date: 2020-12-15, Interday Prediction: 0.3384, Intraday Prediction: 0.4504
+2024-11-21T21:01:11.7629015Z TRACE:: Log: Date: 2020-12-16, Interday Prediction: 0.3522, Intraday Prediction: 0.8521
+2024-11-21T21:01:11.8133706Z TRACE:: Log: Date: 2020-12-17, Interday Prediction: 0.3406, Intraday Prediction: 0.7734
+2024-11-21T21:01:11.8137012Z TRACE:: Log: Date: 2020-12-18, Interday Prediction: 0.3406, Intraday Prediction: 0.7734
+2024-11-21T21:01:11.8641188Z TRACE:: Log: Date: 2020-12-21, Interday Prediction: 0.3384, Intraday Prediction: 0.6298
+2024-11-21T21:01:11.9145614Z TRACE:: Log: Date: 2020-12-22, Interday Prediction: 0.3296, Intraday Prediction: 0.8536
+2024-11-21T21:01:11.9158514Z TRACE:: Log: Date: 2020-12-23, Interday Prediction: 0.3406, Intraday Prediction: 0.6810
+2024-11-21T21:01:11.9665254Z TRACE:: Log: Date: 2020-12-24, Interday Prediction: 0.6796, Intraday Prediction: 0.5185
+2024-11-21T21:01:11.9685536Z TRACE:: Log: Purchase recorded: Date: 2020-12-24 13:00:00, Amount: $183.90
+2024-11-21T21:01:11.9702361Z TRACE:: Log: Placed stop market order to sell at $364.12 (1% below purchase price).
+2024-11-21T21:01:12.0208987Z TRACE:: Log: Date: 2020-12-28, Interday Prediction: 0.3328, Intraday Prediction: 0.8534
+2024-11-21T21:01:12.0211464Z TRACE:: Log: Date: 2020-12-29, Interday Prediction: 0.8072, Intraday Prediction: 0.7794
+2024-11-21T21:01:12.0213505Z TRACE:: Log: Purchase recorded: Date: 2020-12-29 16:00:00, Amount: $185.12
+2024-11-21T21:01:12.0215472Z TRACE:: Log: Placed stop market order to sell at $366.55 (1% below purchase price).
+2024-11-21T21:01:12.0718997Z TRACE:: Log: Date: 2020-12-30, Interday Prediction: 0.7672, Intraday Prediction: 0.3364
+2024-11-21T21:01:12.1223466Z TRACE:: Log: Date: 2020-12-31, Interday Prediction: 0.6551, Intraday Prediction: 0.5667
+2024-11-21T21:01:12.1225961Z TRACE:: Log: Purchase recorded: Date: 2020-12-31 16:00:00, Amount: $186.33
+2024-11-21T21:01:12.1227949Z TRACE:: Log: Placed stop market order to sell at $368.93 (1% below purchase price).
+2024-11-21T21:01:12.1230785Z TRACE:: Log: Stop market order executed: Date: 2021-01-04 16:00:00, Price: $368.93
+2024-11-21T21:01:12.1232837Z TRACE:: Log: Date: 2021-01-04, Interday Prediction: 0.5005, Intraday Prediction: 0.8612
+2024-11-21T21:01:12.1234557Z TRACE:: Log: Purchase recorded: Date: 2021-01-04 16:00:00, Amount: $183.79
+2024-11-21T21:01:12.1236287Z TRACE:: Log: Placed stop market order to sell at $363.91 (1% below purchase price).
+2024-11-21T21:01:12.1739602Z TRACE:: Log: Stop market order executed: Date: 2021-01-05 16:00:00, Price: $366.85
+2024-11-21T21:01:12.1750306Z TRACE:: Log: Date: 2021-01-05, Interday Prediction: 0.7245, Intraday Prediction: 0.1844
+2024-11-21T21:01:12.2261863Z TRACE:: Log: Date: 2021-01-06, Interday Prediction: 0.3400, Intraday Prediction: 0.9015
+2024-11-21T21:01:12.2277262Z TRACE:: Log: Date: 2021-01-07, Interday Prediction: 0.2427, Intraday Prediction: 0.8559
+2024-11-21T21:01:12.2799808Z TRACE:: Log: Date: 2021-01-08, Interday Prediction: 0.8095, Intraday Prediction: 0.8499
+2024-11-21T21:01:12.2803101Z TRACE:: Log: Purchase recorded: Date: 2021-01-08 16:00:00, Amount: $190.01
+2024-11-21T21:01:12.2805538Z TRACE:: Log: Placed stop market order to sell at $376.22 (1% below purchase price).
+2024-11-21T21:01:12.2807278Z TRACE:: Log: Date: 2021-01-11, Interday Prediction: 0.7221, Intraday Prediction: 0.6835
+2024-11-21T21:01:12.2809275Z TRACE:: Log: Purchase recorded: Date: 2021-01-11 16:00:00, Amount: $188.73
+2024-11-21T21:01:12.2810967Z TRACE:: Log: Placed stop market order to sell at $373.68 (1% below purchase price).
+2024-11-21T21:01:12.3315377Z TRACE:: Log: Date: 2021-01-12, Interday Prediction: 0.3431, Intraday Prediction: 0.7145
+2024-11-21T21:01:12.3318100Z TRACE:: Log: Date: 2021-01-13, Interday Prediction: 0.5552, Intraday Prediction: 0.6175
+2024-11-21T21:01:12.3320633Z TRACE:: Log: Purchase recorded: Date: 2021-01-13 16:00:00, Amount: $189.28
+2024-11-21T21:01:12.3322586Z TRACE:: Log: Placed stop market order to sell at $374.76 (1% below purchase price).
+2024-11-21T21:01:12.3827619Z TRACE:: Log: Date: 2021-01-14, Interday Prediction: 0.5083, Intraday Prediction: 0.7354
+2024-11-21T21:01:12.3830654Z TRACE:: Log: Purchase recorded: Date: 2021-01-14 16:00:00, Amount: $188.61
+2024-11-21T21:01:12.3832672Z TRACE:: Log: Placed stop market order to sell at $373.45 (1% below purchase price).
+2024-11-21T21:01:12.3834710Z TRACE:: Log: Stop market order executed: Date: 2021-01-15 16:00:00, Price: $373.45
+2024-11-21T21:01:12.3836695Z TRACE:: Log: Date: 2021-01-15, Interday Prediction: 0.6428, Intraday Prediction: 0.4145
+2024-11-21T21:01:12.4340740Z TRACE:: Log: Date: 2021-01-19, Interday Prediction: 0.2688, Intraday Prediction: 0.5271
+2024-11-21T21:01:12.4344255Z ERROR:: Unable to submit order with id -10 that has zero quantity.
+2024-11-21T21:01:12.4346969Z TRACE:: Log: Date: 2021-01-20, Interday Prediction: 0.8229, Intraday Prediction: 0.6617
+2024-11-21T21:01:12.4349080Z TRACE:: Log: Purchase recorded: Date: 2021-01-20 16:00:00, Amount: $191.32
+2024-11-21T21:01:12.4351234Z TRACE:: Log: Placed stop market order to sell at $378.81 (1% below purchase price).
+2024-11-21T21:01:12.4854363Z TRACE:: Log: Date: 2021-01-21, Interday Prediction: 0.8219, Intraday Prediction: 0.8788
+2024-11-21T21:01:12.4860122Z TRACE:: Log: Purchase recorded: Date: 2021-01-21 16:00:00, Amount: $191.49
+2024-11-21T21:01:12.4866218Z TRACE:: Log: Placed stop market order to sell at $379.16 (1% below purchase price).
+2024-11-21T21:01:12.5368946Z TRACE:: Log: Date: 2021-01-22, Interday Prediction: 0.6796, Intraday Prediction: 0.5985
+2024-11-21T21:01:12.5404776Z TRACE:: Log: Purchase recorded: Date: 2021-01-22 16:00:00, Amount: $190.82
+2024-11-21T21:01:12.5411788Z TRACE:: Log: Placed stop market order to sell at $377.81 (1% below purchase price).
+2024-11-21T21:01:12.5413716Z TRACE:: Log: Stop market order executed: Date: 2021-01-25 16:00:00, Price: $377.81
+2024-11-21T21:01:12.5415911Z TRACE:: Log: Date: 2021-01-25, Interday Prediction: 0.2601, Intraday Prediction: 0.6838
+2024-11-21T21:01:12.5919201Z TRACE:: Log: Date: 2021-01-26, Interday Prediction: 0.6982, Intraday Prediction: 0.6966
+2024-11-21T21:01:12.5922974Z TRACE:: Log: Purchase recorded: Date: 2021-01-26 16:00:00, Amount: $191.27
+2024-11-21T21:01:12.5925226Z TRACE:: Log: Placed stop market order to sell at $378.71 (1% below purchase price).
+2024-11-21T21:01:12.5928738Z TRACE:: Log: Date: 2021-01-27, Interday Prediction: 0.7419, Intraday Prediction: 0.4703
+2024-11-21T21:01:12.6434369Z TRACE:: Log: Date: 2021-01-28, Interday Prediction: 0.2344, Intraday Prediction: 0.2096
+2024-11-21T21:01:12.6437923Z TRACE:: Log: Purchase recorded: Date: 2021-01-28 16:00:00, Amount: $188.20
+2024-11-21T21:01:12.6440420Z TRACE:: Log: Placed stop market order to cover at $380.16 (1% above purchase price).
+2024-11-21T21:01:12.6442424Z TRACE:: Log: Stop market order executed: Date: 2021-01-29 16:00:00, Price: $374.34
+2024-11-21T21:01:12.6445625Z TRACE:: Log: Date: 2021-01-29, Interday Prediction: 0.9413, Intraday Prediction: 0.7368
+2024-11-21T21:01:12.6450141Z TRACE:: Log: Purchase recorded: Date: 2021-01-29 16:00:00, Amount: $184.43
+2024-11-21T21:01:12.6452472Z TRACE:: Log: Placed stop market order to sell at $365.17 (1% below purchase price).
+2024-11-21T21:01:12.6456363Z ERROR:: Order Error: ids: [77], Insufficient buying power to complete orders (Value:[148625.6025]), Reason: Id: 77, Initial Margin: 76314.93900448, Free Margin: 71720.5231166554.
+2024-11-21T21:01:12.6457758Z TRACE:: Log: Date: 2021-02-01, Interday Prediction: 0.1809, Intraday Prediction: 0.2100
+2024-11-21T21:01:12.6459791Z TRACE:: Log: Purchase recorded: Date: 2021-02-01 16:00:00, Amount: $187.50
+2024-11-21T21:01:12.6462191Z TRACE:: Log: Placed stop market order to cover at $378.75 (1% above purchase price).
+2024-11-21T21:01:12.6968503Z TRACE:: Log: Stop market order executed: Date: 2021-02-02 16:00:00, Price: $378.44
+2024-11-21T21:01:12.6973022Z TRACE:: Log: Date: 2021-02-02, Interday Prediction: 0.9485, Intraday Prediction: 0.8480
+2024-11-21T21:01:12.6975705Z TRACE:: Log: Purchase recorded: Date: 2021-02-02 16:00:00, Amount: $190.15
+2024-11-21T21:01:12.6979313Z TRACE:: Log: Placed stop market order to sell at $376.50 (1% below purchase price).
+2024-11-21T21:01:12.7985232Z ERROR:: Order Error: ids: [81], Insufficient buying power to complete orders (Value:[157754.1598]), Reason: Id: 81, Initial Margin: 79738.5579152, Free Margin: 72105.4819640154.
+2024-11-21T21:01:12.7989374Z TRACE:: Log: Date: 2021-02-03, Interday Prediction: 0.8060, Intraday Prediction: 0.7835
+2024-11-21T21:01:12.7992362Z TRACE:: Log: Purchase recorded: Date: 2021-02-03 16:00:00, Amount: $190.30
+2024-11-21T21:01:12.7994167Z TRACE:: Log: Placed stop market order to sell at $376.80 (1% below purchase price).
+2024-11-21T21:01:12.8040579Z TRACE:: Log: Date: 2021-02-04, Interday Prediction: 0.6344, Intraday Prediction: 0.5679
+2024-11-21T21:01:12.8042661Z TRACE:: Log: Purchase recorded: Date: 2021-02-04 16:00:00, Amount: $192.46
+2024-11-21T21:01:12.8045451Z TRACE:: Log: Placed stop market order to sell at $381.08 (1% below purchase price).
+2024-11-21T21:01:12.8047572Z TRACE:: Log: Date: 2021-02-05, Interday Prediction: 0.6708, Intraday Prediction: 0.8779
+2024-11-21T21:01:12.8051460Z TRACE:: Log: Purchase recorded: Date: 2021-02-05 16:00:00, Amount: $193.22
+2024-11-21T21:01:12.8053606Z TRACE:: Log: Placed stop market order to sell at $382.58 (1% below purchase price).
+2024-11-21T21:01:12.8560242Z TRACE:: Log: Date: 2021-02-08, Interday Prediction: 0.7621, Intraday Prediction: 0.5710
+2024-11-21T21:01:12.8564574Z TRACE:: Log: Purchase recorded: Date: 2021-02-08 16:00:00, Amount: $194.62
+2024-11-21T21:01:12.8567965Z TRACE:: Log: Placed stop market order to sell at $385.34 (1% below purchase price).
+2024-11-21T21:01:12.8570922Z TRACE:: Log: Date: 2021-02-09, Interday Prediction: 0.7231, Intraday Prediction: 0.7416
+2024-11-21T21:01:12.8573045Z TRACE:: Log: Purchase recorded: Date: 2021-02-09 16:00:00, Amount: $194.49
+2024-11-21T21:01:12.8576145Z TRACE:: Log: Placed stop market order to sell at $385.09 (1% below purchase price).
+2024-11-21T21:01:12.9080411Z TRACE:: Log: Date: 2021-02-10, Interday Prediction: 0.2398, Intraday Prediction: 0.6825
+2024-11-21T21:01:12.9086782Z TRACE:: Log: Date: 2021-02-11, Interday Prediction: 0.7237, Intraday Prediction: 0.4356
+2024-11-21T21:01:12.9590812Z TRACE:: Log: Date: 2021-02-12, Interday Prediction: 0.6419, Intraday Prediction: 0.5657
+2024-11-21T21:01:12.9597213Z TRACE:: Log: Purchase recorded: Date: 2021-02-12 16:00:00, Amount: $195.68
+2024-11-21T21:01:12.9599508Z TRACE:: Log: Placed stop market order to sell at $387.44 (1% below purchase price).
+2024-11-21T21:01:12.9601970Z TRACE:: Log: Date: 2021-02-16, Interday Prediction: 0.2891, Intraday Prediction: 0.8496
+2024-11-21T21:01:13.0105309Z TRACE:: Log: Date: 2021-02-17, Interday Prediction: 0.6626, Intraday Prediction: 0.4608
+2024-11-21T21:01:13.0110191Z TRACE:: Log: Date: 2021-02-18, Interday Prediction: 0.3689, Intraday Prediction: 0.7833
+2024-11-21T21:01:13.0614716Z TRACE:: Log: Date: 2021-02-19, Interday Prediction: 0.2576, Intraday Prediction: 0.7349
+2024-11-21T21:01:13.0617950Z TRACE:: Log: Date: 2021-02-22, Interday Prediction: 0.6584, Intraday Prediction: 0.4296
+2024-11-21T21:01:13.1122818Z TRACE:: Log: Date: 2021-02-23, Interday Prediction: 0.3400, Intraday Prediction: 0.6231
+2024-11-21T21:01:13.1126684Z TRACE:: Log: Date: 2021-02-24, Interday Prediction: 0.3532, Intraday Prediction: 0.7802
+2024-11-21T21:01:13.1630191Z TRACE:: Log: Date: 2021-02-25, Interday Prediction: 0.3406, Intraday Prediction: 0.8527
+2024-11-21T21:01:13.1633324Z TRACE:: Log: Date: 2021-02-26, Interday Prediction: 0.2028, Intraday Prediction: 0.0617
+2024-11-21T21:01:13.1636012Z TRACE:: Log: Purchase recorded: Date: 2021-02-26 16:00:00, Amount: $189.56
+2024-11-21T21:01:13.1638997Z TRACE:: Log: Placed stop market order to cover at $382.91 (1% above purchase price).
+2024-11-21T21:01:13.2142473Z TRACE:: Log: Date: 2021-03-01, Interday Prediction: 0.6376, Intraday Prediction: 0.2609
+2024-11-21T21:01:13.2146159Z TRACE:: Log: Date: 2021-03-02, Interday Prediction: 0.9969, Intraday Prediction: 0.9081
+2024-11-21T21:01:13.2147774Z TRACE:: Log: Purchase recorded: Date: 2021-03-02 16:00:00, Amount: $192.64
+2024-11-21T21:01:13.2150674Z TRACE:: Log: Placed stop market order to sell at $381.43 (1% below purchase price).
+2024-11-21T21:01:13.2653687Z TRACE:: Log: Stop market order executed: Date: 2021-03-03 16:00:00, Price: $384.57
+2024-11-21T21:01:13.2657202Z TRACE:: Log: Date: 2021-03-03, Interday Prediction: 0.1559, Intraday Prediction: 0.3582
+2024-11-21T21:01:13.2659469Z TRACE:: Log: Date: 2021-03-04, Interday Prediction: 0.3522, Intraday Prediction: 0.2249
+2024-11-21T21:01:13.3163467Z TRACE:: Log: Date: 2021-03-05, Interday Prediction: 0.2232, Intraday Prediction: 0.2518
+2024-11-21T21:01:13.3166653Z TRACE:: Log: Purchase recorded: Date: 2021-03-05 16:00:00, Amount: $191.19
+2024-11-21T21:01:13.3169446Z TRACE:: Log: Placed stop market order to cover at $386.20 (1% above purchase price).
+2024-11-21T21:01:13.3171518Z ERROR:: Order Error: ids: [94], Insufficient buying power to complete orders (Value:[-156411.7]), Reason: Id: 94, Initial Margin: -77048.0233488, Free Margin: 73369.3334443354.
+2024-11-21T21:01:13.3173791Z TRACE:: Log: Date: 2021-03-08, Interday Prediction: 0.9574, Intraday Prediction: 0.8467
+2024-11-21T21:01:13.3175676Z TRACE:: Log: Purchase recorded: Date: 2021-03-08 16:00:00, Amount: $190.24
+2024-11-21T21:01:13.3177808Z TRACE:: Log: Placed stop market order to sell at $376.67 (1% below purchase price).
+2024-11-21T21:01:13.3681550Z TRACE:: Log: Stop market order executed: Date: 2021-03-09 16:00:00, Price: $384.62
+2024-11-21T21:01:13.3683725Z TRACE:: Log: Date: 2021-03-09, Interday Prediction: 0.5157, Intraday Prediction: 0.3794
+2024-11-21T21:01:13.3703966Z TRACE:: Log: Date: 2021-03-10, Interday Prediction: 0.8814, Intraday Prediction: 0.6894
+2024-11-21T21:01:13.3732757Z TRACE:: Log: Purchase recorded: Date: 2021-03-10 16:00:00, Amount: $194.15
+2024-11-21T21:01:13.3735434Z TRACE:: Log: Placed stop market order to sell at $384.43 (1% below purchase price).
+2024-11-21T21:01:13.3737502Z TRACE:: Log: Date: 2021-03-11, Interday Prediction: 0.6681, Intraday Prediction: 0.5940
+2024-11-21T21:01:13.3739362Z TRACE:: Log: Purchase recorded: Date: 2021-03-11 16:00:00, Amount: $196.12
+2024-11-21T21:01:13.3741368Z TRACE:: Log: Placed stop market order to sell at $388.32 (1% below purchase price).
+2024-11-21T21:01:13.4246747Z TRACE:: Log: Date: 2021-03-12, Interday Prediction: 0.6923, Intraday Prediction: 0.6841
+2024-11-21T21:01:13.4250780Z TRACE:: Log: Purchase recorded: Date: 2021-03-12 16:00:00, Amount: $196.39
+2024-11-21T21:01:13.4253836Z TRACE:: Log: Placed stop market order to sell at $388.85 (1% below purchase price).
+2024-11-21T21:01:13.4256161Z TRACE:: Log: Date: 2021-03-15, Interday Prediction: 0.3431, Intraday Prediction: 0.7328
+2024-11-21T21:01:13.4758758Z TRACE:: Log: Date: 2021-03-16, Interday Prediction: 0.3328, Intraday Prediction: 0.7364
+2024-11-21T21:01:13.4761283Z TRACE:: Log: Date: 2021-03-17, Interday Prediction: 0.3328, Intraday Prediction: 0.5103
+2024-11-21T21:01:13.5266197Z TRACE:: Log: Date: 2021-03-18, Interday Prediction: 0.3522, Intraday Prediction: 0.7800
+2024-11-21T21:01:13.5270117Z TRACE:: Log: Date: 2021-03-19, Interday Prediction: 0.3522, Intraday Prediction: 0.7800
+2024-11-21T21:01:13.5774939Z TRACE:: Log: Date: 2021-03-19, Interday Prediction: 0.3406, Intraday Prediction: 0.3749
+2024-11-21T21:01:13.5777822Z TRACE:: Log: Date: 2021-03-22, Interday Prediction: 0.3522, Intraday Prediction: 0.5597
+2024-11-21T21:01:13.6283776Z TRACE:: Log: Date: 2021-03-23, Interday Prediction: 0.3522, Intraday Prediction: 0.7800
+2024-11-21T21:01:13.6787707Z TRACE:: Log: Date: 2021-03-24, Interday Prediction: 0.3406, Intraday Prediction: 0.4230
+2024-11-21T21:01:13.7297260Z TRACE:: Log: Date: 2021-03-25, Interday Prediction: 0.5174, Intraday Prediction: 0.3565
+2024-11-21T21:01:13.7299312Z TRACE:: Log: Date: 2021-03-26, Interday Prediction: 0.3537, Intraday Prediction: 0.8821
+2024-11-21T21:01:13.7803103Z TRACE:: Log: Date: 2021-03-29, Interday Prediction: 0.5185, Intraday Prediction: 0.8534
+2024-11-21T21:01:13.7805873Z TRACE:: Log: Purchase recorded: Date: 2021-03-29 16:00:00, Amount: $197.89
+2024-11-21T21:01:13.7808371Z TRACE:: Log: Placed stop market order to sell at $391.82 (1% below purchase price).
+2024-11-21T21:01:13.7809840Z TRACE:: Log: Date: 2021-03-30, Interday Prediction: 0.3408, Intraday Prediction: 0.6963
+2024-11-21T21:01:13.8312696Z TRACE:: Log: Date: 2021-03-31, Interday Prediction: 0.3328, Intraday Prediction: 0.6217
+2024-11-21T21:01:13.8314925Z TRACE:: Log: Date: 2021-04-01, Interday Prediction: 0.3296, Intraday Prediction: 0.6680
+2024-11-21T21:01:13.8819709Z TRACE:: Log: Date: 2021-04-05, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:13.8822580Z TRACE:: Log: Date: 2021-04-06, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:13.9327874Z TRACE:: Log: Date: 2021-04-07, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:13.9330825Z TRACE:: Log: Date: 2021-04-08, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:13.9834784Z TRACE:: Log: Date: 2021-04-09, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:13.9850265Z TRACE:: Log: Date: 2021-04-12, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:14.0354614Z TRACE:: Log: Date: 2021-04-13, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:14.0857872Z TRACE:: Log: Date: 2021-04-14, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2024-11-21T21:01:14.0878999Z TRACE:: Log: Date: 2021-04-15, Interday Prediction: 0.3328, Intraday Prediction: 0.6935
+2024-11-21T21:01:14.0880594Z TRACE:: Log: Date: 2021-04-16, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2024-11-21T21:01:14.1384680Z TRACE:: Log: Date: 2021-04-19, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2024-11-21T21:01:14.1888565Z TRACE:: Log: Date: 2021-04-20, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2024-11-21T21:01:14.1901624Z TRACE:: Log: Date: 2021-04-21, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2024-11-21T21:01:14.2417352Z TRACE:: Log: Date: 2021-04-22, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2024-11-21T21:01:14.2445935Z TRACE:: Log: Date: 2021-04-23, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.2978637Z TRACE:: Log: Date: 2021-04-26, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.2982037Z TRACE:: Log: Date: 2021-04-27, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.3486636Z TRACE:: Log: Date: 2021-04-28, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.3489749Z TRACE:: Log: Date: 2021-04-29, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.3993446Z TRACE:: Log: Date: 2021-04-30, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.3996770Z TRACE:: Log: Date: 2021-05-03, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.4500302Z TRACE:: Log: Date: 2021-05-04, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.5020779Z TRACE:: Log: Date: 2021-05-05, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.5024574Z TRACE:: Log: Date: 2021-05-06, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.5530767Z TRACE:: Log: Date: 2021-05-07, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.5533560Z TRACE:: Log: Date: 2021-05-10, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.6243501Z TRACE:: Log: Date: 2021-05-11, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.6283131Z TRACE:: Log: Date: 2021-05-12, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2024-11-21T21:01:14.6285413Z TRACE:: Log: Date: 2021-05-13, Interday Prediction: 0.3522, Intraday Prediction: 0.0792
+2024-11-21T21:01:14.6790120Z TRACE:: Log: Date: 2021-05-14, Interday Prediction: 0.3522, Intraday Prediction: 0.0792
+2024-11-21T21:01:14.6794065Z TRACE:: Log: Date: 2021-05-17, Interday Prediction: 0.3522, Intraday Prediction: 0.5692
+2024-11-21T21:01:14.7298643Z TRACE:: Log: Date: 2021-05-18, Interday Prediction: 0.3384, Intraday Prediction: 0.8534
+2024-11-21T21:01:14.7302578Z TRACE:: Log: Formatted data is empty. Skipping this OnData call.
+2024-11-21T21:01:14.7734816Z ERROR:: Extensions.SetRuntimeError(): Extensions.SetRuntimeError(): RuntimeError at 05/21/2021 20:00:00 UTC. Context: OnData Python.Runtime.PythonException: "No key found for either mapped or original key. Mapped Key: ['close']; Original Key: ['close']"
+  File Launcher/bin/Debug/PandasMapper.py", line 90, in wrapped_function
+    raise KeyError(f"No key found for either mapped or original key. Mapped Key: {mKey}; Original Key: {oKey}")
+  File "/LeanCLI/main.py", line 163, in prepare_data
+    df['intraday_grads'] = (df['close'] / df['open'] - 1).dropna()
+                            ~~^^^^^^^^^
+  File "/LeanCLI/main.py", line 47, in OnData
+    formatted_data = self.prepare_data(history)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args, PyDict kw)
+   at Python.Runtime.PyObject.TryInvoke(InvokeBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure , CallSite , Object , Slice )
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper.OnData(Slice slice) in AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 763
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, CancellationTokenSource cancellationTokenSource) in Engine/AlgorithmManager.cs:line 525
+2024-11-21T21:01:14.9057150Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2024-11-21T21:01:14.9067449Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2024-11-21T21:01:14.9100477Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2024-11-21T21:01:14.9102289Z TRACE:: Engine.Run(): Sending runtime error to user...
+2024-11-21T21:01:14.9149775Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2024-11-21T21:01:14.9155303Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2024-11-21T21:01:14.9158205Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2024-11-21T21:01:14.9229613Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2024-11-21T21:01:14.9230110Z ERROR:: Runtime Error: Trying to retrieve an element from a collection using a key that does not exist in that collection throws a KeyError exception. To prevent the exception, ensure that the 'close' key exist in the collection and/or that collection is not empty.
+  at wrapped_function
+    raise KeyError(f"No key found for either mapped or original key. Mapped Key: {mKey}; Original Key: {oKey}")
+ in PandasMapper.py: line 90
+  at prepare_data
+    df['intraday_grads'] = (df['close'] / df['open'] - 1).dropna()
+                            ~~^^^^^^^^^
+ in main.py: line 163
+  at OnData
+    formatted_data = self.prepare_data(history)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 47
+
+ Trying to retrieve an element from a collection using a key that does not exist in that collection throws a KeyError exception. To prevent the exception, ensure that the 'close' key exist in the collection and/or that collection is not empty.
+  at wrapped_function
+    raise KeyError(f"No key found for either mapped or original key. Mapped Key: {mKey}; Original Key: {oKey}")
+ in PandasMapper.py: line 90
+  at prepare_data
+    df['intraday_grads'] = (df['close'] / df['open'] - 1).dropna()
+                            ~~^^^^^^^^^
+ in main.py: line 163
+  at OnData
+    formatted_data = self.prepare_data(history)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 47
+
+2024-11-21T21:01:14.9233469Z TRACE:: Debug: Algorithm Id:(1827590197) completed in 6.59 seconds at 10k data points per second. Processing total of 63,643 data points.
+2024-11-21T21:01:14.9235519Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1827590197-log.txt
+2024-11-21T21:01:14.9237576Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2024-11-21T21:01:15.0507464Z TRACE:: 
+STATISTICS:: Total Orders 101
+STATISTICS:: Average Win 0.92%
+STATISTICS:: Average Loss -0.76%
+STATISTICS:: Compounding Annual Return 18.016%
+STATISTICS:: Drawdown 5.200%
+STATISTICS:: Expectancy 0.435
+STATISTICS:: Start Equity 100000
+STATISTICS:: End Equity 114620.43
+STATISTICS:: Net Profit 14.620%
+STATISTICS:: Sharpe Ratio 1.37
+STATISTICS:: Sortino Ratio 1.415
+STATISTICS:: Probabilistic Sharpe Ratio 63.314%
+STATISTICS:: Loss Rate 35%
+STATISTICS:: Win Rate 65%
+STATISTICS:: Profit-Loss Ratio 1.21
+STATISTICS:: Alpha 0.031
+STATISTICS:: Beta 0.437
+STATISTICS:: Annual Standard Deviation 0.09
+STATISTICS:: Annual Variance 0.008
+STATISTICS:: Information Ratio -0.887
+STATISTICS:: Tracking Error 0.101
+STATISTICS:: Treynor Ratio 0.284
+STATISTICS:: Total Fees $74.80
+STATISTICS:: Estimated Strategy Capacity $900000000.00
+STATISTICS:: Lowest Capacity Asset SPY R735QTJ8XC9X
+STATISTICS:: Portfolio Turnover 11.92%
+STATISTICS:: OrderListHash 53a9f85a555d48f3dbd7755f9d368775
+2024-11-21T21:01:15.0513018Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2024-11-21T21:01:15.0521076Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2024-11-21T21:01:15.0524720Z TRACE:: Engine.Run(): Disposing of setup handler...
+2024-11-21T21:01:15.0528267Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2024-11-21T21:01:15.0533672Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2024-11-21T21:01:15.0562400Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 3
+DATA USAGE:: Succeeded data requests 3
+DATA USAGE:: Failed data requests 0
+DATA USAGE:: Failed data requests percentage 0%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2024-11-21T21:01:15.0639742Z TRACE:: Engine.Main(): Packet removed from queue: 1827590197
+2024-11-21T21:01:15.0643344Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2024-11-21T21:01:15.0654522Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2024-11-21T21:01:15.0659031Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2024-11-21T21:01:15.0671049Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

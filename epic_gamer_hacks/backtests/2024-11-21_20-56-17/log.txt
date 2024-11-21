@@ -1,0 +1,320 @@
+2024-11-21T20:56:18.7001660Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: DESKTOP-K73RRG0
+2024-11-21T20:56:18.7366978Z TRACE:: Engine.Main(): Started 8:56 PM
+2024-11-21T20:56:18.7447731Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2024-11-21T20:56:18.7656440Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2024-11-21T20:56:18.8683697Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2024-11-21T20:56:18.8690107Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2024-11-21T20:56:18.8699430Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2024-11-21T20:56:18.8726817Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2024-11-21T20:56:18.8735458Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2024-11-21T20:56:18.8738162Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2024-11-21T20:56:18.8740995Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2024-11-21T20:56:18.8908784Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2024-11-21T20:56:18.8912372Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2024-11-21T20:56:18.8919237Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2024-11-21T20:56:18.8922291Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2024-11-21T20:56:18.8937609Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2024-11-21T20:56:18.9317459Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-11-21T20:56:18.9347124Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2024-11-21T20:56:18.9421861Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2024-11-21T20:56:18.9432211Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2024-11-21T20:56:18.9760838Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2024-11-21T20:56:18.9777863Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2024-11-21T20:56:19.0587998Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-11-21T20:56:19.5163234Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2024-11-21T20:56:19.5206656Z TRACE:: PythonInitializer.Initialize(): start...
+2024-11-21T20:56:20.1146513Z TRACE:: PythonInitializer.Initialize(): ended
+2024-11-21T20:56:20.1170853Z TRACE:: AlgorithmPythonWrapper(): Python version 3.11.7 (main, Dec 15 2023, 18:24:52) [GCC 11.2.0]: Importing python module main
+2024-11-21T20:56:22.9515761Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2024-11-21T20:56:22.9582663Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2024-11-21T20:56:22.9751233Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-11-21T20:56:23.1250446Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2024-11-21T20:56:23.1274708Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB
+2024-11-21T20:56:23.1353734Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-11-21T20:56:23.1445873Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2024-11-21T20:56:23.1479816Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 326373, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2024-11-21T20:56:23.1539182Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2024-11-21T20:56:23.3052943Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2024-11-21T20:56:23.3087991Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2024-11-21T20:56:23.3092236Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400
+2024-11-21T20:56:23.5434526Z TRACE:: BacktestingResultHandler(): Sample Period Set: 526.32
+2024-11-21T20:56:23.5458466Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2024-11-21T20:56:23.6983120Z ERROR:: Engine.Run(): During the algorithm initialization, the following exception has occurred: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:781: Exception in gpu_hist: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:787: Check failed: ctx_->gpu_id >= 0 (-1 vs. 0) : Must have at least one device
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb3e95a) [0x7f797ff6095a]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb483cd) [0x7f797ff6a3cd]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (6) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+
+
+
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb485c9) [0x7f797ff6a5c9]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (6) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x7f79f3a4606e]
+
+
+  at _check_call
+    raise XGBoostError(py_str(_LIB.XGBGetLastError()))
+ in core.py: line 282
+  at update
+    _check_call(
+ in core.py: line 2050
+  at train
+    bst.update(dtrain, i, obj)
+ in training.py: line 181
+  at inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+ in core.py: line 730
+  at fit
+    self._Booster = train(
+                    ^^^^^^
+ in sklearn.py: line 1090
+  at inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+ in core.py: line 730
+  at train_model
+    xgb_inter.fit(X, y_inter)
+ in main.py: line 138
+  at Initialize
+    self.model_inter, self.model_intra = self.train_model(history)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 32
+ [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:781: Exception in gpu_hist: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:787: Check failed: ctx_->gpu_id >= 0 (-1 vs. 0) : Must have at least one device
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb3e95a) [0x7f797ff6095a]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb483cd) [0x7f797ff6a3cd]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (6) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+
+
+
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb485c9) [0x7f797ff6a5c9]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (6) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x7f79f3a4606e]
+
+
+2024-11-21T20:56:23.6999997Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2024-11-21T20:56:23.7006829Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2024-11-21T20:56:23.7025871Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2024-11-21T20:56:23.7030684Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2024-11-21T20:56:23.7206265Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2024-11-21T20:56:23.7257847Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2024-11-21T20:56:23.7259427Z ERROR:: During the algorithm initialization, the following exception has occurred: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:781: Exception in gpu_hist: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:787: Check failed: ctx_->gpu_id >= 0 (-1 vs. 0) : Must have at least one device
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb3e95a) [0x7f797ff6095a]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb483cd) [0x7f797ff6a3cd]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (6) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+
+
+
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb485c9) [0x7f797ff6a5c9]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (6) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x7f79f3a4606e]
+
+
+  at _check_call
+    raise XGBoostError(py_str(_LIB.XGBGetLastError()))
+ in core.py: line 282
+  at update
+    _check_call(
+ in core.py: line 2050
+  at train
+    bst.update(dtrain, i, obj)
+ in training.py: line 181
+  at inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+ in core.py: line 730
+  at fit
+    self._Booster = train(
+                    ^^^^^^
+ in sklearn.py: line 1090
+  at inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+ in core.py: line 730
+  at train_model
+    xgb_inter.fit(X, y_inter)
+ in main.py: line 138
+  at Initialize
+    self.model_inter, self.model_intra = self.train_model(history)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 32
+ [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:781: Exception in gpu_hist: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:787: Check failed: ctx_->gpu_id >= 0 (-1 vs. 0) : Must have at least one device
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb3e95a) [0x7f797ff6095a]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb483cd) [0x7f797ff6a3cd]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (6) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+
+
+
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb485c9) [0x7f797ff6a5c9]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (6) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x7f79f3a4606e]
+
+
+ [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:781: Exception in gpu_hist: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:787: Check failed: ctx_->gpu_id >= 0 (-1 vs. 0) : Must have at least one device
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb3e95a) [0x7f797ff6095a]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb483cd) [0x7f797ff6a3cd]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (6) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+
+
+
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb485c9) [0x7f797ff6a5c9]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (6) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x7f79f3a4606e]
+
+
+  at _check_call
+    raise XGBoostError(py_str(_LIB.XGBGetLastError()))
+ in core.py: line 282
+  at update
+    _check_call(
+ in core.py: line 2050
+  at train
+    bst.update(dtrain, i, obj)
+ in training.py: line 181
+  at inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+ in core.py: line 730
+  at fit
+    self._Booster = train(
+                    ^^^^^^
+ in sklearn.py: line 1090
+  at inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+ in core.py: line 730
+  at train_model
+    xgb_inter.fit(X, y_inter)
+ in main.py: line 138
+  at Initialize
+    self.model_inter, self.model_intra = self.train_model(history)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 32
+ [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:781: Exception in gpu_hist: [20:56:23] /workspace/src/tree/updater_gpu_hist.cu:787: Check failed: ctx_->gpu_id >= 0 (-1 vs. 0) : Must have at least one device
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb3e95a) [0x7f797ff6095a]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb483cd) [0x7f797ff6a3cd]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (6) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+
+
+
+Stack trace:
+  [bt] (0) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb27f2a) [0x7f797ff49f2a]
+  [bt] (1) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0xb485c9) [0x7f797ff6a5c9]
+  [bt] (2) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x460c79) [0x7f797f882c79]
+  [bt] (3) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x46176c) [0x7f797f88376c]
+  [bt] (4) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(+0x4c54f7) [0x7f797f8e74f7]
+  [bt] (5) /opt/miniconda3/lib/python3.11/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x7f797f583ef0]
+  [bt] (6) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0xa052) [0x7f79f3a47052]
+  [bt] (7) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(+0x8925) [0x7f79f3a45925]
+  [bt] (8) /opt/miniconda3/lib/python3.11/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x7f79f3a4606e]
+
+
+2024-11-21T20:56:23.7269965Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1176830478-log.txt
+2024-11-21T20:56:23.7272524Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2024-11-21T20:56:23.8273323Z TRACE:: 
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2024-11-21T20:56:23.8275782Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2024-11-21T20:56:23.8280752Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2024-11-21T20:56:23.8283674Z TRACE:: Engine.Run(): Disposing of setup handler...
+2024-11-21T20:56:23.8285913Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2024-11-21T20:56:23.8296746Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2024-11-21T20:56:23.8319981Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 1
+DATA USAGE:: Succeeded data requests 1
+DATA USAGE:: Failed data requests 0
+DATA USAGE:: Failed data requests percentage 0%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2024-11-21T20:56:23.8410134Z TRACE:: Engine.Main(): Packet removed from queue: 1176830478
+2024-11-21T20:56:23.8413339Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2024-11-21T20:56:23.8423835Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2024-11-21T20:56:23.8427019Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2024-11-21T20:56:23.8449233Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

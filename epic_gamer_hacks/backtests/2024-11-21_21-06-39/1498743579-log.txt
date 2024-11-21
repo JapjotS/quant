@@ -1,0 +1,388 @@
+2020-07-25 00:00:00 Launching analysis for 1498743579 with LEAN Engine v2.5.0.0
+2020-07-25 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2020-07-25 00:00:00 Interday Model MSE (GPU): 0.000000
+2020-07-25 00:00:00 Intraday Model MSE (GPU): 0.000000
+2020-07-27 16:00:00 Date: 2020-07-27, Interday Prediction: 0.3522, Intraday Prediction: 0.5293
+2020-07-28 16:00:00 Unable to submit order with id -10 that has zero quantity.
+2020-07-28 16:00:00 Date: 2020-07-28, Interday Prediction: 0.5084, Intraday Prediction: 0.6095
+2020-07-28 16:00:00 Purchase recorded: Date: 2020-07-28 16:00:00, Amount: $158.75
+2020-07-28 16:00:00 Placed stop market order to sell at $314.32 (1% below purchase price).
+2020-07-29 16:00:00 Date: 2020-07-29, Interday Prediction: 0.3300, Intraday Prediction: 0.4699
+2020-07-30 16:00:00 Date: 2020-07-30, Interday Prediction: 0.4526, Intraday Prediction: 0.6711
+2020-07-31 16:00:00 Date: 2020-07-31, Interday Prediction: 0.3522, Intraday Prediction: 0.5243
+2020-08-03 16:00:00 Date: 2020-08-03, Interday Prediction: 0.3522, Intraday Prediction: 0.4289
+2020-08-04 16:00:00 Date: 2020-08-04, Interday Prediction: 0.6642, Intraday Prediction: 0.5632
+2020-08-04 16:00:00 Purchase recorded: Date: 2020-08-04 16:00:00, Amount: $163.14
+2020-08-04 16:00:00 Placed stop market order to sell at $323.02 (1% below purchase price).
+2020-08-05 16:00:00 Date: 2020-08-05, Interday Prediction: 0.3558, Intraday Prediction: 0.6984
+2020-08-06 16:00:00 Warning: Portfolio rebalance result ignored as it resulted in a single share trade recommendation which can generate high fees. To disable minimum order size checks please set Settings.MinimumOrderMarginPortfolioPercentage = 0.
+2020-08-06 16:00:00 Date: 2020-08-06, Interday Prediction: 0.6095, Intraday Prediction: 0.5751
+2020-08-06 16:00:00 Purchase recorded: Date: 2020-08-06 16:00:00, Amount: $165.25
+2020-08-06 16:00:00 Placed stop market order to sell at $327.20 (1% below purchase price).
+2020-08-07 16:00:00 Date: 2020-08-07, Interday Prediction: 0.3526, Intraday Prediction: 0.7407
+2020-08-10 16:00:00 Date: 2020-08-10, Interday Prediction: 0.3328, Intraday Prediction: 0.6267
+2020-08-11 16:00:00 Date: 2020-08-11, Interday Prediction: 0.4529, Intraday Prediction: 0.5700
+2020-08-12 16:00:00 Date: 2020-08-12, Interday Prediction: 0.5933, Intraday Prediction: 0.2055
+2020-08-13 16:00:00 Date: 2020-08-13, Interday Prediction: 0.8437, Intraday Prediction: 0.6799
+2020-08-13 16:00:00 Purchase recorded: Date: 2020-08-13 16:00:00, Amount: $166.49
+2020-08-13 16:00:00 Placed stop market order to sell at $329.64 (1% below purchase price).
+2020-08-14 16:00:00 Date: 2020-08-14, Interday Prediction: 0.3431, Intraday Prediction: 0.5438
+2020-08-17 16:00:00 Date: 2020-08-17, Interday Prediction: 0.3522, Intraday Prediction: 0.5101
+2020-08-18 16:00:00 Date: 2020-08-18, Interday Prediction: 0.5655, Intraday Prediction: 0.4752
+2020-08-19 16:00:00 Date: 2020-08-19, Interday Prediction: 0.4561, Intraday Prediction: 0.5018
+2020-08-20 16:00:00 Date: 2020-08-20, Interday Prediction: 0.4568, Intraday Prediction: 0.3281
+2020-08-21 16:00:00 Date: 2020-08-21, Interday Prediction: 0.3526, Intraday Prediction: 0.7420
+2020-08-24 16:00:00 Date: 2020-08-24, Interday Prediction: 0.2295, Intraday Prediction: 0.6127
+2020-08-25 16:00:00 Date: 2020-08-25, Interday Prediction: 0.8317, Intraday Prediction: 0.5414
+2020-08-25 16:00:00 Purchase recorded: Date: 2020-08-25 16:00:00, Amount: $170.09
+2020-08-25 16:00:00 Placed stop market order to sell at $336.78 (1% below purchase price).
+2020-08-26 16:00:00 Date: 2020-08-26, Interday Prediction: 0.5560, Intraday Prediction: 0.5244
+2020-08-26 16:00:00 Purchase recorded: Date: 2020-08-26 16:00:00, Amount: $171.79
+2020-08-26 16:00:00 Placed stop market order to sell at $340.15 (1% below purchase price).
+2020-08-27 16:00:00 Date: 2020-08-27, Interday Prediction: 0.5562, Intraday Prediction: 0.7143
+2020-08-27 16:00:00 Purchase recorded: Date: 2020-08-27 16:00:00, Amount: $172.17
+2020-08-27 16:00:00 Placed stop market order to sell at $340.90 (1% below purchase price).
+2020-08-28 16:00:00 Date: 2020-08-28, Interday Prediction: 0.5961, Intraday Prediction: 0.4601
+2020-08-31 16:00:00 Date: 2020-08-31, Interday Prediction: 0.6236, Intraday Prediction: 0.5063
+2020-08-31 16:00:00 Purchase recorded: Date: 2020-08-31 16:00:00, Amount: $172.65
+2020-08-31 16:00:00 Placed stop market order to sell at $341.86 (1% below purchase price).
+2020-09-01 16:00:00 Date: 2020-09-01, Interday Prediction: 0.5115, Intraday Prediction: 0.4277
+2020-09-02 16:00:00 Date: 2020-09-02, Interday Prediction: 0.7019, Intraday Prediction: 0.8661
+2020-09-02 16:00:00 Purchase recorded: Date: 2020-09-02 16:00:00, Amount: $176.80
+2020-09-02 16:00:00 Placed stop market order to sell at $350.07 (1% below purchase price).
+2020-09-03 16:00:00 Stop market order executed: Date: 2020-09-03 16:00:00, Price: $350.07
+2020-09-03 16:00:00 Date: 2020-09-03, Interday Prediction: 0.8599, Intraday Prediction: 0.9226
+2020-09-03 16:00:00 Purchase recorded: Date: 2020-09-03 16:00:00, Amount: $170.72
+2020-09-03 16:00:00 Placed stop market order to sell at $338.02 (1% below purchase price).
+2020-09-04 16:00:00 Stop market order executed: Date: 2020-09-04 16:00:00, Price: $342.11
+2020-09-04 16:00:00 Date: 2020-09-04, Interday Prediction: 0.0816, Intraday Prediction: 0.2126
+2020-09-04 16:00:00 Purchase recorded: Date: 2020-09-04 16:00:00, Amount: $169.32
+2020-09-04 16:00:00 Placed stop market order to cover at $342.03 (1% above purchase price).
+2020-09-08 16:00:00 Stop market order executed: Date: 2020-09-08 16:00:00, Price: $332.88
+2020-09-08 16:00:00 Date: 2020-09-08, Interday Prediction: 0.7686, Intraday Prediction: 0.4999
+2020-09-09 16:00:00 Date: 2020-09-09, Interday Prediction: 0.2099, Intraday Prediction: 0.4884
+2020-09-10 16:00:00 Date: 2020-09-10, Interday Prediction: 0.8448, Intraday Prediction: 0.8474
+2020-09-10 16:00:00 Purchase recorded: Date: 2020-09-10 16:00:00, Amount: $165.03
+2020-09-10 16:00:00 Placed stop market order to sell at $326.77 (1% below purchase price).
+2020-09-11 16:00:00 Order Error: ids: [19], Insufficient buying power to complete orders (Value:[143123.2730]), Reason: Id: 19, Initial Margin: 72323.47494915, Free Margin: 67860.57577742.
+2020-09-11 16:00:00 Date: 2020-09-11, Interday Prediction: 0.7483, Intraday Prediction: 0.2218
+2020-09-14 16:00:00 Date: 2020-09-14, Interday Prediction: 0.7802, Intraday Prediction: 0.6282
+2020-09-14 16:00:00 Purchase recorded: Date: 2020-09-14 16:00:00, Amount: $167.29
+2020-09-14 16:00:00 Placed stop market order to sell at $331.24 (1% below purchase price).
+2020-09-15 16:00:00 Date: 2020-09-15, Interday Prediction: 0.8142, Intraday Prediction: 0.8790
+2020-09-15 16:00:00 Purchase recorded: Date: 2020-09-15 16:00:00, Amount: $168.14
+2020-09-15 16:00:00 Placed stop market order to sell at $332.91 (1% below purchase price).
+2020-09-16 16:00:00 Date: 2020-09-16, Interday Prediction: 0.7929, Intraday Prediction: 0.6839
+2020-09-16 16:00:00 Purchase recorded: Date: 2020-09-16 16:00:00, Amount: $167.47
+2020-09-16 16:00:00 Placed stop market order to sell at $331.59 (1% below purchase price).
+2020-09-17 16:00:00 Unable to submit order with id -10 that has zero quantity.
+2020-09-17 16:00:00 Stop market order executed: Date: 2020-09-17 16:00:00, Price: $329.70
+2020-09-17 16:00:00 Date: 2020-09-17, Interday Prediction: 0.6984, Intraday Prediction: 0.5634
+2020-09-17 16:00:00 Purchase recorded: Date: 2020-09-17 16:00:00, Amount: $166.00
+2020-09-17 16:00:00 Placed stop market order to sell at $328.67 (1% below purchase price).
+2020-09-18 00:00:00 Date: 2020-09-18, Interday Prediction: 0.6984, Intraday Prediction: 0.5634
+2020-09-18 00:00:00 Purchase recorded: Date: 2020-09-18 00:00:00, Amount: $166.00
+2020-09-18 00:00:00 Placed stop market order to sell at $328.67 (1% below purchase price).
+2020-09-18 16:00:00 Date: 2020-09-18, Interday Prediction: 0.2891, Intraday Prediction: 0.8557
+2020-09-21 16:00:00 Date: 2020-09-21, Interday Prediction: 0.6539, Intraday Prediction: 0.3991
+2020-09-22 16:00:00 Date: 2020-09-22, Interday Prediction: 0.2443, Intraday Prediction: 0.8505
+2020-09-23 16:00:00 Date: 2020-09-23, Interday Prediction: 0.7261, Intraday Prediction: 0.8489
+2020-09-23 16:00:00 Purchase recorded: Date: 2020-09-23 16:00:00, Amount: $160.11
+2020-09-23 16:00:00 Placed stop market order to sell at $317.02 (1% below purchase price).
+2020-09-24 16:00:00 Date: 2020-09-24, Interday Prediction: 0.6311, Intraday Prediction: 0.2325
+2020-09-25 16:00:00 Date: 2020-09-25, Interday Prediction: 0.3400, Intraday Prediction: 0.7511
+2020-09-28 16:00:00 Date: 2020-09-28, Interday Prediction: 0.4362, Intraday Prediction: 0.8559
+2020-09-29 16:00:00 Date: 2020-09-29, Interday Prediction: 0.8016, Intraday Prediction: 0.6673
+2020-09-29 16:00:00 Purchase recorded: Date: 2020-09-29 16:00:00, Amount: $164.94
+2020-09-29 16:00:00 Placed stop market order to sell at $326.58 (1% below purchase price).
+2020-09-30 16:00:00 Date: 2020-09-30, Interday Prediction: 0.5438, Intraday Prediction: 0.5047
+2020-09-30 16:00:00 Purchase recorded: Date: 2020-09-30 16:00:00, Amount: $166.19
+2020-09-30 16:00:00 Placed stop market order to sell at $329.06 (1% below purchase price).
+2020-10-01 16:00:00 Date: 2020-10-01, Interday Prediction: 0.6266, Intraday Prediction: 0.7134
+2020-10-01 16:00:00 Purchase recorded: Date: 2020-10-01 16:00:00, Amount: $167.26
+2020-10-01 16:00:00 Placed stop market order to sell at $331.17 (1% below purchase price).
+2020-10-02 16:00:00 Stop market order executed: Date: 2020-10-02 16:00:00, Price: $329.22
+2020-10-02 16:00:00 Date: 2020-10-02, Interday Prediction: 0.8808, Intraday Prediction: 0.5693
+2020-10-02 16:00:00 Purchase recorded: Date: 2020-10-02 16:00:00, Amount: $165.67
+2020-10-02 16:00:00 Placed stop market order to sell at $328.02 (1% below purchase price).
+2020-10-05 16:00:00 Date: 2020-10-05, Interday Prediction: 0.1007, Intraday Prediction: 0.7452
+2020-10-06 16:00:00 Date: 2020-10-06, Interday Prediction: 0.7603, Intraday Prediction: 0.8488
+2020-10-06 16:00:00 Purchase recorded: Date: 2020-10-06 16:00:00, Amount: $166.21
+2020-10-06 16:00:00 Placed stop market order to sell at $329.10 (1% below purchase price).
+2020-10-07 16:00:00 Date: 2020-10-07, Interday Prediction: 0.5650, Intraday Prediction: 0.2619
+2020-10-08 16:00:00 Date: 2020-10-08, Interday Prediction: 0.9477, Intraday Prediction: 0.7937
+2020-10-08 16:00:00 Purchase recorded: Date: 2020-10-08 16:00:00, Amount: $170.60
+2020-10-08 16:00:00 Placed stop market order to sell at $337.79 (1% below purchase price).
+2020-10-09 16:00:00 Date: 2020-10-09, Interday Prediction: 0.7753, Intraday Prediction: 0.6543
+2020-10-09 16:00:00 Purchase recorded: Date: 2020-10-09 16:00:00, Amount: $172.13
+2020-10-09 16:00:00 Placed stop market order to sell at $340.81 (1% below purchase price).
+2020-10-12 16:00:00 Date: 2020-10-12, Interday Prediction: 0.7229, Intraday Prediction: 0.6835
+2020-10-12 16:00:00 Purchase recorded: Date: 2020-10-12 16:00:00, Amount: $174.89
+2020-10-12 16:00:00 Placed stop market order to sell at $346.29 (1% below purchase price).
+2020-10-13 16:00:00 Date: 2020-10-13, Interday Prediction: 0.8221, Intraday Prediction: 0.7657
+2020-10-13 16:00:00 Purchase recorded: Date: 2020-10-13 16:00:00, Amount: $173.75
+2020-10-13 16:00:00 Placed stop market order to sell at $344.03 (1% below purchase price).
+2020-10-14 16:00:00 Date: 2020-10-14, Interday Prediction: 0.5468, Intraday Prediction: 0.4768
+2020-10-15 16:00:00 Date: 2020-10-15, Interday Prediction: 0.6118, Intraday Prediction: 0.4414
+2020-10-16 16:00:00 Date: 2020-10-16, Interday Prediction: 0.2728, Intraday Prediction: 0.8409
+2020-10-19 16:00:00 Date: 2020-10-19, Interday Prediction: 0.6915, Intraday Prediction: 0.5045
+2020-10-19 16:00:00 Purchase recorded: Date: 2020-10-19 16:00:00, Amount: $169.72
+2020-10-19 16:00:00 Placed stop market order to sell at $336.05 (1% below purchase price).
+2020-10-20 16:00:00 Date: 2020-10-20, Interday Prediction: 0.6747, Intraday Prediction: 0.2107
+2020-10-21 16:00:00 Date: 2020-10-21, Interday Prediction: 0.6902, Intraday Prediction: 0.6059
+2020-10-21 16:00:00 Purchase recorded: Date: 2020-10-21 16:00:00, Amount: $170.08
+2020-10-21 16:00:00 Placed stop market order to sell at $336.76 (1% below purchase price).
+2020-10-22 16:00:00 Date: 2020-10-22, Interday Prediction: 0.5565, Intraday Prediction: 0.5683
+2020-10-22 16:00:00 Purchase recorded: Date: 2020-10-22 16:00:00, Amount: $171.01
+2020-10-22 16:00:00 Placed stop market order to sell at $338.61 (1% below purchase price).
+2020-10-23 16:00:00 Date: 2020-10-23, Interday Prediction: 0.5752, Intraday Prediction: 0.6785
+2020-10-23 16:00:00 Purchase recorded: Date: 2020-10-23 16:00:00, Amount: $171.59
+2020-10-23 16:00:00 Placed stop market order to sell at $339.76 (1% below purchase price).
+2020-10-26 16:00:00 Stop market order executed: Date: 2020-10-26 16:00:00, Price: $339.58
+2020-10-26 16:00:00 Date: 2020-10-26, Interday Prediction: 0.6647, Intraday Prediction: 0.5587
+2020-10-26 16:00:00 Purchase recorded: Date: 2020-10-26 16:00:00, Amount: $168.42
+2020-10-26 16:00:00 Placed stop market order to sell at $333.48 (1% below purchase price).
+2020-10-27 16:00:00 Date: 2020-10-27, Interday Prediction: 0.3689, Intraday Prediction: 0.3909
+2020-10-28 16:00:00 Date: 2020-10-28, Interday Prediction: 0.6024, Intraday Prediction: 0.4664
+2020-10-29 16:00:00 Date: 2020-10-29, Interday Prediction: 0.3395, Intraday Prediction: 0.2102
+2020-10-29 16:00:00 Purchase recorded: Date: 2020-10-29 16:00:00, Amount: $163.75
+2020-10-29 16:00:00 Placed stop market order to cover at $330.78 (1% above purchase price).
+2020-10-30 16:00:00 Stop market order executed: Date: 2020-10-30 16:00:00, Price: $325.82
+2020-10-30 16:00:00 Date: 2020-10-30, Interday Prediction: 0.6017, Intraday Prediction: 0.7692
+2020-10-30 16:00:00 Purchase recorded: Date: 2020-10-30 16:00:00, Amount: $162.05
+2020-10-30 16:00:00 Placed stop market order to sell at $320.85 (1% below purchase price).
+2020-11-02 16:00:00 Order Error: ids: [50], Insufficient buying power to complete orders (Value:[140533.0682]), Reason: Id: 50, Initial Margin: 71774.01976314, Free Margin: 65447.481166083.
+2020-11-02 16:00:00 Date: 2020-11-02, Interday Prediction: 0.2030, Intraday Prediction: 0.4494
+2020-11-03 16:00:00 Date: 2020-11-03, Interday Prediction: 0.8348, Intraday Prediction: 0.5669
+2020-11-03 16:00:00 Purchase recorded: Date: 2020-11-03 16:00:00, Amount: $166.76
+2020-11-03 16:00:00 Placed stop market order to sell at $330.18 (1% below purchase price).
+2020-11-04 16:00:00 Date: 2020-11-04, Interday Prediction: 0.8161, Intraday Prediction: 0.7451
+2020-11-04 16:00:00 Purchase recorded: Date: 2020-11-04 16:00:00, Amount: $170.48
+2020-11-04 16:00:00 Placed stop market order to sell at $337.56 (1% below purchase price).
+2020-11-05 16:00:00 Date: 2020-11-05, Interday Prediction: 0.8142, Intraday Prediction: 0.7381
+2020-11-05 16:00:00 Purchase recorded: Date: 2020-11-05 16:00:00, Amount: $173.81
+2020-11-05 16:00:00 Placed stop market order to sell at $344.14 (1% below purchase price).
+2020-11-06 16:00:00 Date: 2020-11-06, Interday Prediction: 0.8287, Intraday Prediction: 0.6295
+2020-11-06 16:00:00 Purchase recorded: Date: 2020-11-06 16:00:00, Amount: $173.77
+2020-11-06 16:00:00 Placed stop market order to sell at $344.06 (1% below purchase price).
+2020-11-09 16:00:00 Date: 2020-11-09, Interday Prediction: 0.2299, Intraday Prediction: 0.5960
+2020-11-10 16:00:00 Date: 2020-11-10, Interday Prediction: 0.8700, Intraday Prediction: 0.1844
+2020-11-11 16:00:00 Date: 2020-11-11, Interday Prediction: 0.2166, Intraday Prediction: 0.6189
+2020-11-12 16:00:00 Date: 2020-11-12, Interday Prediction: 0.3296, Intraday Prediction: 0.5989
+2020-11-13 16:00:00 Date: 2020-11-13, Interday Prediction: 0.3306, Intraday Prediction: 0.5310
+2020-11-16 16:00:00 Date: 2020-11-16, Interday Prediction: 0.3532, Intraday Prediction: 0.8543
+2020-11-17 16:00:00 Date: 2020-11-17, Interday Prediction: 0.4668, Intraday Prediction: 0.8534
+2020-11-18 16:00:00 Date: 2020-11-18, Interday Prediction: 0.3406, Intraday Prediction: 0.7305
+2020-11-19 16:00:00 Date: 2020-11-19, Interday Prediction: 0.3306, Intraday Prediction: 0.3700
+2020-11-20 16:00:00 Date: 2020-11-20, Interday Prediction: 0.3522, Intraday Prediction: 0.8514
+2020-11-23 16:00:00 Date: 2020-11-23, Interday Prediction: 0.3406, Intraday Prediction: 0.5522
+2020-11-24 16:00:00 Date: 2020-11-24, Interday Prediction: 0.3532, Intraday Prediction: 0.7373
+2020-11-25 16:00:00 Date: 2020-11-25, Interday Prediction: 0.3328, Intraday Prediction: 0.8534
+2020-11-27 13:00:00 Date: 2020-11-27, Interday Prediction: 0.3406, Intraday Prediction: 0.7093
+2020-11-30 16:00:00 Date: 2020-11-30, Interday Prediction: 0.3296, Intraday Prediction: 0.6949
+2020-12-01 16:00:00 Date: 2020-12-01, Interday Prediction: 0.3328, Intraday Prediction: 0.6519
+2020-12-02 16:00:00 Date: 2020-12-02, Interday Prediction: 0.4570, Intraday Prediction: 0.7296
+2020-12-03 16:00:00 Date: 2020-12-03, Interday Prediction: 0.3328, Intraday Prediction: 0.8812
+2020-12-04 16:00:00 Date: 2020-12-04, Interday Prediction: 0.3384, Intraday Prediction: 0.7301
+2020-12-07 16:00:00 Date: 2020-12-07, Interday Prediction: 0.3328, Intraday Prediction: 0.8534
+2020-12-08 16:00:00 Date: 2020-12-08, Interday Prediction: 0.3384, Intraday Prediction: 0.7301
+2020-12-09 16:00:00 Date: 2020-12-09, Interday Prediction: 0.3328, Intraday Prediction: 0.8527
+2020-12-10 16:00:00 Date: 2020-12-10, Interday Prediction: 0.3384, Intraday Prediction: 0.4404
+2020-12-11 16:00:00 Date: 2020-12-11, Interday Prediction: 0.3532, Intraday Prediction: 0.8521
+2020-12-14 16:00:00 Date: 2020-12-14, Interday Prediction: 0.3406, Intraday Prediction: 0.8407
+2020-12-15 16:00:00 Date: 2020-12-15, Interday Prediction: 0.3384, Intraday Prediction: 0.4504
+2020-12-16 16:00:00 Date: 2020-12-16, Interday Prediction: 0.3522, Intraday Prediction: 0.8521
+2020-12-17 16:00:00 Date: 2020-12-17, Interday Prediction: 0.3406, Intraday Prediction: 0.7734
+2020-12-18 00:00:00 Date: 2020-12-18, Interday Prediction: 0.3406, Intraday Prediction: 0.7734
+2020-12-18 16:00:00 Date: 2020-12-18, Interday Prediction: 0.3406, Intraday Prediction: 0.7734
+2020-12-21 16:00:00 Date: 2020-12-21, Interday Prediction: 0.3384, Intraday Prediction: 0.6298
+2020-12-22 16:00:00 Date: 2020-12-22, Interday Prediction: 0.3296, Intraday Prediction: 0.8536
+2020-12-23 16:00:00 Date: 2020-12-23, Interday Prediction: 0.3406, Intraday Prediction: 0.6810
+2020-12-24 13:00:00 Date: 2020-12-24, Interday Prediction: 0.6796, Intraday Prediction: 0.5185
+2020-12-24 13:00:00 Purchase recorded: Date: 2020-12-24 13:00:00, Amount: $183.90
+2020-12-24 13:00:00 Placed stop market order to sell at $364.12 (1% below purchase price).
+2020-12-28 16:00:00 Date: 2020-12-28, Interday Prediction: 0.3328, Intraday Prediction: 0.8534
+2020-12-29 16:00:00 Date: 2020-12-29, Interday Prediction: 0.8072, Intraday Prediction: 0.7794
+2020-12-29 16:00:00 Purchase recorded: Date: 2020-12-29 16:00:00, Amount: $185.12
+2020-12-29 16:00:00 Placed stop market order to sell at $366.55 (1% below purchase price).
+2020-12-30 16:00:00 Date: 2020-12-30, Interday Prediction: 0.7672, Intraday Prediction: 0.3364
+2020-12-31 16:00:00 Date: 2020-12-31, Interday Prediction: 0.6551, Intraday Prediction: 0.5667
+2020-12-31 16:00:00 Purchase recorded: Date: 2020-12-31 16:00:00, Amount: $186.33
+2020-12-31 16:00:00 Placed stop market order to sell at $368.93 (1% below purchase price).
+2021-01-04 16:00:00 Stop market order executed: Date: 2021-01-04 16:00:00, Price: $368.93
+2021-01-04 16:00:00 Date: 2021-01-04, Interday Prediction: 0.5005, Intraday Prediction: 0.8612
+2021-01-04 16:00:00 Purchase recorded: Date: 2021-01-04 16:00:00, Amount: $183.79
+2021-01-04 16:00:00 Placed stop market order to sell at $363.91 (1% below purchase price).
+2021-01-05 16:00:00 Stop market order executed: Date: 2021-01-05 16:00:00, Price: $366.85
+2021-01-05 16:00:00 Date: 2021-01-05, Interday Prediction: 0.7245, Intraday Prediction: 0.1844
+2021-01-06 16:00:00 Date: 2021-01-06, Interday Prediction: 0.3400, Intraday Prediction: 0.9015
+2021-01-07 16:00:00 Date: 2021-01-07, Interday Prediction: 0.2427, Intraday Prediction: 0.8559
+2021-01-08 16:00:00 Date: 2021-01-08, Interday Prediction: 0.8095, Intraday Prediction: 0.8499
+2021-01-08 16:00:00 Purchase recorded: Date: 2021-01-08 16:00:00, Amount: $190.01
+2021-01-08 16:00:00 Placed stop market order to sell at $376.22 (1% below purchase price).
+2021-01-11 16:00:00 Date: 2021-01-11, Interday Prediction: 0.7221, Intraday Prediction: 0.6835
+2021-01-11 16:00:00 Purchase recorded: Date: 2021-01-11 16:00:00, Amount: $188.73
+2021-01-11 16:00:00 Placed stop market order to sell at $373.68 (1% below purchase price).
+2021-01-12 16:00:00 Date: 2021-01-12, Interday Prediction: 0.3431, Intraday Prediction: 0.7145
+2021-01-13 16:00:00 Date: 2021-01-13, Interday Prediction: 0.5552, Intraday Prediction: 0.6175
+2021-01-13 16:00:00 Purchase recorded: Date: 2021-01-13 16:00:00, Amount: $189.28
+2021-01-13 16:00:00 Placed stop market order to sell at $374.76 (1% below purchase price).
+2021-01-14 16:00:00 Date: 2021-01-14, Interday Prediction: 0.5083, Intraday Prediction: 0.7354
+2021-01-14 16:00:00 Purchase recorded: Date: 2021-01-14 16:00:00, Amount: $188.61
+2021-01-14 16:00:00 Placed stop market order to sell at $373.45 (1% below purchase price).
+2021-01-15 16:00:00 Stop market order executed: Date: 2021-01-15 16:00:00, Price: $373.45
+2021-01-15 16:00:00 Date: 2021-01-15, Interday Prediction: 0.6428, Intraday Prediction: 0.4145
+2021-01-19 16:00:00 Date: 2021-01-19, Interday Prediction: 0.2688, Intraday Prediction: 0.5271
+2021-01-20 16:00:00 Unable to submit order with id -10 that has zero quantity.
+2021-01-20 16:00:00 Date: 2021-01-20, Interday Prediction: 0.8229, Intraday Prediction: 0.6617
+2021-01-20 16:00:00 Purchase recorded: Date: 2021-01-20 16:00:00, Amount: $191.32
+2021-01-20 16:00:00 Placed stop market order to sell at $378.81 (1% below purchase price).
+2021-01-21 16:00:00 Date: 2021-01-21, Interday Prediction: 0.8219, Intraday Prediction: 0.8788
+2021-01-21 16:00:00 Purchase recorded: Date: 2021-01-21 16:00:00, Amount: $191.49
+2021-01-21 16:00:00 Placed stop market order to sell at $379.16 (1% below purchase price).
+2021-01-22 16:00:00 Date: 2021-01-22, Interday Prediction: 0.6796, Intraday Prediction: 0.5985
+2021-01-22 16:00:00 Purchase recorded: Date: 2021-01-22 16:00:00, Amount: $190.82
+2021-01-22 16:00:00 Placed stop market order to sell at $377.81 (1% below purchase price).
+2021-01-25 16:00:00 Stop market order executed: Date: 2021-01-25 16:00:00, Price: $377.81
+2021-01-25 16:00:00 Date: 2021-01-25, Interday Prediction: 0.2601, Intraday Prediction: 0.6838
+2021-01-26 16:00:00 Date: 2021-01-26, Interday Prediction: 0.6982, Intraday Prediction: 0.6966
+2021-01-26 16:00:00 Purchase recorded: Date: 2021-01-26 16:00:00, Amount: $191.27
+2021-01-26 16:00:00 Placed stop market order to sell at $378.71 (1% below purchase price).
+2021-01-27 16:00:00 Date: 2021-01-27, Interday Prediction: 0.7419, Intraday Prediction: 0.4703
+2021-01-28 16:00:00 Date: 2021-01-28, Interday Prediction: 0.2344, Intraday Prediction: 0.2096
+2021-01-28 16:00:00 Purchase recorded: Date: 2021-01-28 16:00:00, Amount: $188.20
+2021-01-28 16:00:00 Placed stop market order to cover at $380.16 (1% above purchase price).
+2021-01-29 16:00:00 Stop market order executed: Date: 2021-01-29 16:00:00, Price: $374.34
+2021-01-29 16:00:00 Date: 2021-01-29, Interday Prediction: 0.9413, Intraday Prediction: 0.7368
+2021-01-29 16:00:00 Purchase recorded: Date: 2021-01-29 16:00:00, Amount: $184.43
+2021-01-29 16:00:00 Placed stop market order to sell at $365.17 (1% below purchase price).
+2021-02-01 16:00:00 Order Error: ids: [77], Insufficient buying power to complete orders (Value:[148625.6025]), Reason: Id: 77, Initial Margin: 76314.93900448, Free Margin: 71720.5231166554.
+2021-02-01 16:00:00 Date: 2021-02-01, Interday Prediction: 0.1809, Intraday Prediction: 0.2100
+2021-02-01 16:00:00 Purchase recorded: Date: 2021-02-01 16:00:00, Amount: $187.50
+2021-02-01 16:00:00 Placed stop market order to cover at $378.75 (1% above purchase price).
+2021-02-02 16:00:00 Stop market order executed: Date: 2021-02-02 16:00:00, Price: $378.44
+2021-02-02 16:00:00 Date: 2021-02-02, Interday Prediction: 0.9485, Intraday Prediction: 0.8480
+2021-02-02 16:00:00 Purchase recorded: Date: 2021-02-02 16:00:00, Amount: $190.15
+2021-02-02 16:00:00 Placed stop market order to sell at $376.50 (1% below purchase price).
+2021-02-03 16:00:00 Order Error: ids: [81], Insufficient buying power to complete orders (Value:[157754.1598]), Reason: Id: 81, Initial Margin: 79738.5579152, Free Margin: 72105.4819640154.
+2021-02-03 16:00:00 Date: 2021-02-03, Interday Prediction: 0.8060, Intraday Prediction: 0.7835
+2021-02-03 16:00:00 Purchase recorded: Date: 2021-02-03 16:00:00, Amount: $190.30
+2021-02-03 16:00:00 Placed stop market order to sell at $376.80 (1% below purchase price).
+2021-02-04 16:00:00 Date: 2021-02-04, Interday Prediction: 0.6344, Intraday Prediction: 0.5679
+2021-02-04 16:00:00 Purchase recorded: Date: 2021-02-04 16:00:00, Amount: $192.46
+2021-02-04 16:00:00 Placed stop market order to sell at $381.08 (1% below purchase price).
+2021-02-05 16:00:00 Date: 2021-02-05, Interday Prediction: 0.6708, Intraday Prediction: 0.8779
+2021-02-05 16:00:00 Purchase recorded: Date: 2021-02-05 16:00:00, Amount: $193.22
+2021-02-05 16:00:00 Placed stop market order to sell at $382.58 (1% below purchase price).
+2021-02-08 16:00:00 Date: 2021-02-08, Interday Prediction: 0.7621, Intraday Prediction: 0.5710
+2021-02-08 16:00:00 Purchase recorded: Date: 2021-02-08 16:00:00, Amount: $194.62
+2021-02-08 16:00:00 Placed stop market order to sell at $385.34 (1% below purchase price).
+2021-02-09 16:00:00 Date: 2021-02-09, Interday Prediction: 0.7231, Intraday Prediction: 0.7416
+2021-02-09 16:00:00 Purchase recorded: Date: 2021-02-09 16:00:00, Amount: $194.49
+2021-02-09 16:00:00 Placed stop market order to sell at $385.09 (1% below purchase price).
+2021-02-10 16:00:00 Date: 2021-02-10, Interday Prediction: 0.2398, Intraday Prediction: 0.6825
+2021-02-11 16:00:00 Date: 2021-02-11, Interday Prediction: 0.7237, Intraday Prediction: 0.4356
+2021-02-12 16:00:00 Date: 2021-02-12, Interday Prediction: 0.6419, Intraday Prediction: 0.5657
+2021-02-12 16:00:00 Purchase recorded: Date: 2021-02-12 16:00:00, Amount: $195.68
+2021-02-12 16:00:00 Placed stop market order to sell at $387.44 (1% below purchase price).
+2021-02-16 16:00:00 Date: 2021-02-16, Interday Prediction: 0.2891, Intraday Prediction: 0.8496
+2021-02-17 16:00:00 Date: 2021-02-17, Interday Prediction: 0.6626, Intraday Prediction: 0.4608
+2021-02-18 16:00:00 Date: 2021-02-18, Interday Prediction: 0.3689, Intraday Prediction: 0.7833
+2021-02-19 16:00:00 Date: 2021-02-19, Interday Prediction: 0.2576, Intraday Prediction: 0.7349
+2021-02-22 16:00:00 Date: 2021-02-22, Interday Prediction: 0.6584, Intraday Prediction: 0.4296
+2021-02-23 16:00:00 Date: 2021-02-23, Interday Prediction: 0.3400, Intraday Prediction: 0.6231
+2021-02-24 16:00:00 Date: 2021-02-24, Interday Prediction: 0.3532, Intraday Prediction: 0.7802
+2021-02-25 16:00:00 Date: 2021-02-25, Interday Prediction: 0.3406, Intraday Prediction: 0.8527
+2021-02-26 16:00:00 Date: 2021-02-26, Interday Prediction: 0.2028, Intraday Prediction: 0.0617
+2021-02-26 16:00:00 Purchase recorded: Date: 2021-02-26 16:00:00, Amount: $189.56
+2021-02-26 16:00:00 Placed stop market order to cover at $382.91 (1% above purchase price).
+2021-03-01 16:00:00 Date: 2021-03-01, Interday Prediction: 0.6376, Intraday Prediction: 0.2609
+2021-03-02 16:00:00 Date: 2021-03-02, Interday Prediction: 0.9969, Intraday Prediction: 0.9081
+2021-03-02 16:00:00 Purchase recorded: Date: 2021-03-02 16:00:00, Amount: $192.64
+2021-03-02 16:00:00 Placed stop market order to sell at $381.43 (1% below purchase price).
+2021-03-03 16:00:00 Stop market order executed: Date: 2021-03-03 16:00:00, Price: $384.57
+2021-03-03 16:00:00 Date: 2021-03-03, Interday Prediction: 0.1559, Intraday Prediction: 0.3582
+2021-03-04 16:00:00 Date: 2021-03-04, Interday Prediction: 0.3522, Intraday Prediction: 0.2249
+2021-03-05 16:00:00 Date: 2021-03-05, Interday Prediction: 0.2232, Intraday Prediction: 0.2518
+2021-03-05 16:00:00 Purchase recorded: Date: 2021-03-05 16:00:00, Amount: $191.19
+2021-03-05 16:00:00 Placed stop market order to cover at $386.20 (1% above purchase price).
+2021-03-08 16:00:00 Order Error: ids: [94], Insufficient buying power to complete orders (Value:[-156411.7]), Reason: Id: 94, Initial Margin: -77048.0233488, Free Margin: 73369.3334443354.
+2021-03-08 16:00:00 Date: 2021-03-08, Interday Prediction: 0.9574, Intraday Prediction: 0.8467
+2021-03-08 16:00:00 Purchase recorded: Date: 2021-03-08 16:00:00, Amount: $190.24
+2021-03-08 16:00:00 Placed stop market order to sell at $376.67 (1% below purchase price).
+2021-03-09 16:00:00 Stop market order executed: Date: 2021-03-09 16:00:00, Price: $384.62
+2021-03-09 16:00:00 Date: 2021-03-09, Interday Prediction: 0.5157, Intraday Prediction: 0.3794
+2021-03-10 16:00:00 Date: 2021-03-10, Interday Prediction: 0.8814, Intraday Prediction: 0.6894
+2021-03-10 16:00:00 Purchase recorded: Date: 2021-03-10 16:00:00, Amount: $194.15
+2021-03-10 16:00:00 Placed stop market order to sell at $384.43 (1% below purchase price).
+2021-03-11 16:00:00 Date: 2021-03-11, Interday Prediction: 0.6681, Intraday Prediction: 0.5940
+2021-03-11 16:00:00 Purchase recorded: Date: 2021-03-11 16:00:00, Amount: $196.12
+2021-03-11 16:00:00 Placed stop market order to sell at $388.32 (1% below purchase price).
+2021-03-12 16:00:00 Date: 2021-03-12, Interday Prediction: 0.6923, Intraday Prediction: 0.6841
+2021-03-12 16:00:00 Purchase recorded: Date: 2021-03-12 16:00:00, Amount: $196.39
+2021-03-12 16:00:00 Placed stop market order to sell at $388.85 (1% below purchase price).
+2021-03-15 16:00:00 Date: 2021-03-15, Interday Prediction: 0.3431, Intraday Prediction: 0.7328
+2021-03-16 16:00:00 Date: 2021-03-16, Interday Prediction: 0.3328, Intraday Prediction: 0.7364
+2021-03-17 16:00:00 Date: 2021-03-17, Interday Prediction: 0.3328, Intraday Prediction: 0.5103
+2021-03-18 16:00:00 Date: 2021-03-18, Interday Prediction: 0.3522, Intraday Prediction: 0.7800
+2021-03-19 00:00:00 Date: 2021-03-19, Interday Prediction: 0.3522, Intraday Prediction: 0.7800
+2021-03-19 16:00:00 Date: 2021-03-19, Interday Prediction: 0.3406, Intraday Prediction: 0.3749
+2021-03-22 16:00:00 Date: 2021-03-22, Interday Prediction: 0.3522, Intraday Prediction: 0.5597
+2021-03-23 16:00:00 Date: 2021-03-23, Interday Prediction: 0.3522, Intraday Prediction: 0.7800
+2021-03-24 16:00:00 Date: 2021-03-24, Interday Prediction: 0.3406, Intraday Prediction: 0.4230
+2021-03-25 16:00:00 Date: 2021-03-25, Interday Prediction: 0.5174, Intraday Prediction: 0.3565
+2021-03-26 16:00:00 Date: 2021-03-26, Interday Prediction: 0.3537, Intraday Prediction: 0.8821
+2021-03-29 16:00:00 Date: 2021-03-29, Interday Prediction: 0.5185, Intraday Prediction: 0.8534
+2021-03-29 16:00:00 Purchase recorded: Date: 2021-03-29 16:00:00, Amount: $197.89
+2021-03-29 16:00:00 Placed stop market order to sell at $391.82 (1% below purchase price).
+2021-03-30 16:00:00 Date: 2021-03-30, Interday Prediction: 0.3408, Intraday Prediction: 0.6963
+2021-03-31 16:00:00 Date: 2021-03-31, Interday Prediction: 0.3328, Intraday Prediction: 0.6217
+2021-04-01 16:00:00 Date: 2021-04-01, Interday Prediction: 0.3296, Intraday Prediction: 0.6680
+2021-04-05 16:00:00 Date: 2021-04-05, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-06 16:00:00 Date: 2021-04-06, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-07 16:00:00 Date: 2021-04-07, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-08 16:00:00 Date: 2021-04-08, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-09 16:00:00 Date: 2021-04-09, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-12 16:00:00 Date: 2021-04-12, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-13 16:00:00 Date: 2021-04-13, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-14 16:00:00 Date: 2021-04-14, Interday Prediction: 0.3296, Intraday Prediction: 0.6676
+2021-04-15 16:00:00 Date: 2021-04-15, Interday Prediction: 0.3328, Intraday Prediction: 0.6935
+2021-04-16 16:00:00 Date: 2021-04-16, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2021-04-19 16:00:00 Date: 2021-04-19, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2021-04-20 16:00:00 Date: 2021-04-20, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2021-04-21 16:00:00 Date: 2021-04-21, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2021-04-22 16:00:00 Date: 2021-04-22, Interday Prediction: 0.3522, Intraday Prediction: 0.5828
+2021-04-23 16:00:00 Date: 2021-04-23, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-04-26 16:00:00 Date: 2021-04-26, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-04-27 16:00:00 Date: 2021-04-27, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-04-28 16:00:00 Date: 2021-04-28, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-04-29 16:00:00 Date: 2021-04-29, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-04-30 16:00:00 Date: 2021-04-30, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-03 16:00:00 Date: 2021-05-03, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-04 16:00:00 Date: 2021-05-04, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-05 16:00:00 Date: 2021-05-05, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-06 16:00:00 Date: 2021-05-06, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-07 16:00:00 Date: 2021-05-07, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-10 16:00:00 Date: 2021-05-10, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-11 16:00:00 Date: 2021-05-11, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-12 16:00:00 Date: 2021-05-12, Interday Prediction: 0.3522, Intraday Prediction: 0.5208
+2021-05-13 16:00:00 Date: 2021-05-13, Interday Prediction: 0.3522, Intraday Prediction: 0.0792
+2021-05-14 16:00:00 Date: 2021-05-14, Interday Prediction: 0.3522, Intraday Prediction: 0.0792
+2021-05-17 16:00:00 Date: 2021-05-17, Interday Prediction: 0.3522, Intraday Prediction: 0.5692
+2021-05-18 16:00:00 Date: 2021-05-18, Interday Prediction: 0.3384, Intraday Prediction: 0.8534
+2021-05-19 16:00:00 Formatted data is empty. Skipping this OnData call.
+2021-05-20 16:00:00 Formatted data is empty. Skipping this OnData call.
+2021-05-21 16:00:00 Runtime Error: Trying to retrieve an element from a collection using a key that does not exist in that collection throws a KeyError exception. To prevent the exception, ensure that the 'close' key exist in the collection and/or that collection is not empty.
+  at wrapped_function
+    raise KeyError(f"No key found for either mapped or original key. Mapped Key: {mKey}; Original Key: {oKey}")
+ in PandasMapper.py: line 90
+  at prepare_data
+    df['intraday_grads'] = (df['close'] / df['open'] - 1).dropna()
+                            ~~^^^^^^^^^
+ in main.py: line 164
+  at OnData
+    formatted_data = self.prepare_data(history)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 48
+
+2021-05-21 16:00:00 Algorithm Id:(1498743579) completed in 6.25 seconds at 10k data points per second. Processing total of 63,643 data points.
