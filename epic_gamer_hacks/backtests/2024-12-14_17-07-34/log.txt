@@ -1,0 +1,122 @@
+2024-12-14T17:07:36.1915258Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: DESKTOP-K73RRG0
+2024-12-14T17:07:36.2512010Z TRACE:: Engine.Main(): Started 5:07 PM
+2024-12-14T17:07:36.2578876Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2024-12-14T17:07:36.2792721Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2024-12-14T17:07:36.3466433Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2024-12-14T17:07:36.3469491Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2024-12-14T17:07:36.3485717Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2024-12-14T17:07:36.3499044Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2024-12-14T17:07:36.3501696Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2024-12-14T17:07:36.3504349Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2024-12-14T17:07:36.3506386Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2024-12-14T17:07:36.3569362Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2024-12-14T17:07:36.3572514Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2024-12-14T17:07:36.3574563Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2024-12-14T17:07:36.3576632Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2024-12-14T17:07:36.3586283Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2024-12-14T17:07:36.3844900Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-14T17:07:36.3876061Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2024-12-14T17:07:36.3955236Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2024-12-14T17:07:36.3963204Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2024-12-14T17:07:36.4155777Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2024-12-14T17:07:36.4168877Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2024-12-14T17:07:36.4791364Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-14T17:07:36.8837715Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2024-12-14T17:07:36.8881204Z TRACE:: PythonInitializer.Initialize(): start...
+2024-12-14T17:07:37.4405749Z TRACE:: PythonInitializer.Initialize(): ended
+2024-12-14T17:07:37.4429132Z TRACE:: AlgorithmPythonWrapper(): Python version 3.11.11 | packaged by conda-forge | (main, Dec  5 2024, 14:35:46) [GCC 13.3.0]: Importing python module main
+2024-12-14T17:07:40.1847177Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2024-12-14T17:07:40.1936176Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2024-12-14T17:07:40.2093926Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-14T17:07:40.3486145Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2024-12-14T17:07:40.3513554Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB
+2024-12-14T17:07:40.3588984Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-14T17:07:40.3668067Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2024-12-14T17:07:40.3696890Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 326373, PID: 0, Version: 2.5.0.0, Source: WebIDE
+2024-12-14T17:07:40.3752943Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2024-12-14T17:07:40.5231092Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2024-12-14T17:07:40.5264446Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2024-12-14T17:07:40.5269370Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400
+2024-12-14T17:07:40.7117838Z TRACE:: BacktestingResultHandler(): Sample Period Set: 526.32
+2024-12-14T17:07:40.7148553Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2024-12-14T17:07:40.8589081Z ERROR:: Engine.Run(): During the algorithm initialization, the following exception has occurred: name 'data' is not defined
+  at prepare_data
+    df = data[symbol].reset_index()
+         ^^^^
+ in main.py: line 165
+  at train_model
+    grads = self.prepare_data(df)
+            ^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 127
+  at Initialize
+    self.model_inter, self.model_intra = self.train_model(history)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 42
+ name 'data' is not defined
+2024-12-14T17:07:40.8604451Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2024-12-14T17:07:40.8610699Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2024-12-14T17:07:40.8629012Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2024-12-14T17:07:40.8639027Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2024-12-14T17:07:40.8804799Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2024-12-14T17:07:40.8857750Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2024-12-14T17:07:40.8858309Z ERROR:: During the algorithm initialization, the following exception has occurred: name 'data' is not defined
+  at prepare_data
+    df = data[symbol].reset_index()
+         ^^^^
+ in main.py: line 165
+  at train_model
+    grads = self.prepare_data(df)
+            ^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 127
+  at Initialize
+    self.model_inter, self.model_intra = self.train_model(history)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 42
+ name 'data' is not defined
+ name 'data' is not defined
+  at prepare_data
+    df = data[symbol].reset_index()
+         ^^^^
+ in main.py: line 165
+  at train_model
+    grads = self.prepare_data(df)
+            ^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 127
+  at Initialize
+    self.model_inter, self.model_intra = self.train_model(history)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+ in main.py: line 42
+ name 'data' is not defined
+2024-12-14T17:07:40.8864115Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1928666708-log.txt
+2024-12-14T17:07:40.8865819Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2024-12-14T17:07:40.9706649Z TRACE:: 
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2024-12-14T17:07:40.9711265Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2024-12-14T17:07:40.9718740Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2024-12-14T17:07:40.9721813Z TRACE:: Engine.Run(): Disposing of setup handler...
+2024-12-14T17:07:40.9725283Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2024-12-14T17:07:40.9736156Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2024-12-14T17:07:40.9767155Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 1
+DATA USAGE:: Succeeded data requests 1
+DATA USAGE:: Failed data requests 0
+DATA USAGE:: Failed data requests percentage 0%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2024-12-14T17:07:40.9851644Z TRACE:: Engine.Main(): Packet removed from queue: 1928666708
+2024-12-14T17:07:40.9854916Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2024-12-14T17:07:40.9864437Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2024-12-14T17:07:40.9867335Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2024-12-14T17:07:40.9883191Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
